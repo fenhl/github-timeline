@@ -1,8 +1,5 @@
 const repos = [
-  'hashicorp/terraform',
-  'kubernetes/kubernetes',
-  'kubernetes/kops',
-  'terraform-providers/terraform-provider-aws'
+  'OoTRandomizer/OoT-Randomizer',
 ];
 
 function loadTimeline() {
