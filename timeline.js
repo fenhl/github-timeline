@@ -51,7 +51,10 @@ function populateGraph(timeline, repo) {
       text: '<a href="https://github.com/' + repo + '">' + repo + '</a>'
     },
     showSendToCloud:false,
-    autosize: true
+    autosize: true,
+    xaxis: {
+      tickformat: '%Y-%m-%d',
+    },
   };
   var data = [
     issues,
