@@ -10522,7 +10522,12 @@
     },
     {
       "day": "2024-04-08T00:00:00Z",
-      "open_issues": 132,
+      "open_issues": 133,
+      "open_prs": 45
+    },
+    {
+      "day": "2024-04-09T00:00:00Z",
+      "open_issues": 133,
       "open_prs": 45
     }
   ]
