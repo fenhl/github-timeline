@@ -36,13 +36,13 @@ function populateGraph(timeline, repo) {
   var issues = {
     type: "scatter",
     name: 'Issues',
-    x: timeline.map(a => a.day.replace('T00:00:00Z', ' 00:00:00')),
+    x: timeline.map(a => a.day),
     y: timeline.map(a => a['open_issues']),
   }
   var prs = {
     type: "scatter",
     name: 'PRs',
-    x: timeline.map(a => a.day.replace('T00:00:00Z', ' 00:00:00')),
+    x: timeline.map(a => a.day),
     y: timeline.map(a => a['open_prs']),
   }
   

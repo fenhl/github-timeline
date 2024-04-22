@@ -12,16 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v2
-    - name: Setup Go
-      uses: actions/setup-go@v2
-      with:
-        go-version: '^1.15'
+      uses: actions/checkout@v4
+    - name: Setup Rust
+      uses: dtolnay/rust-toolchain@stable
     - name: Fetch latest data
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |-
-        go run main.go OoTRandomizer/OoT-Randomizer
+        cargo run --release -- OoTRandomizer/OoT-Randomizer
     - name: Commit and push if it changed
       run: |-
         git config user.name "github bot"
