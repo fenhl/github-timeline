@@ -140,6 +140,10 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
         let mut open_issues = 0;
         let mut open_prs = 0;
         for (timestamp, events) in events {
+            timeline.push(DataPoint {
+                day: timestamp.format("%Y-%m-%d %H:%M:%S").to_string(),
+                open_issues, open_prs,
+            });
             for event in events {
                 match event {
                     Event::IssueOpened => open_issues += 1,
@@ -153,6 +157,10 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
                 open_issues, open_prs,
             });
         }
+        timeline.push(DataPoint {
+            day: Utc::now().format("%Y-%m-%d %H:%M:%S").to_string(),
+            open_issues, open_prs,
+        });
         let dir = Path::new("data").join(org);
         fs::create_dir_all(&dir).await?;
         fs::write(dir.join(format!("{repo}.json")), serde_json::to_vec_pretty(&Report { timeline })?).await?;
