@@ -1,5 +1,10 @@
 const repos = [
   'OoTRandomizer/OoT-Randomizer',
+  'comex/rust-shlex',
+  'dasgefolge/gefolge.org',
+  'fenhl/OoT-Randomizer',
+  'fenhl/webloc-cli',
+  'midoshouse/ootr-multiworld',
 ];
 
 function loadTimeline() {
