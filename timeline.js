@@ -21,7 +21,7 @@ function loadTimeline() {
       response.text().then(function(respBody) {
         let timelineData = JSON.parse(respBody, JSON.dateParser);
 
-        let timeline = timelineData['timeline'].slice(0, timelineData['timeline'].length-1);
+        let timeline = timelineData['timeline'];
 
         populateGraph(timeline, repo);
       });
