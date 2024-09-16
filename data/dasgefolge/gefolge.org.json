@@ -1,159 +1,369 @@
 {
+  "labels": [
+    "bug",
+    "dependencies",
+    "enhancement",
+    "feature"
+  ],
   "timeline": [
     {
       "day": "2017-11-28 17:26:16",
       "open_issues": 0,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {},
+      "pr_labels": {}
     },
     {
       "day": "2017-11-28 17:26:16",
       "open_issues": 1,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 1
+      },
+      "pr_labels": {}
     },
     {
       "day": "2017-11-28 17:27:44",
       "open_issues": 1,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 1
+      },
+      "pr_labels": {}
     },
     {
       "day": "2017-11-28 17:27:44",
       "open_issues": 2,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 2
+      },
+      "pr_labels": {}
     },
     {
       "day": "2017-11-28 17:30:53",
       "open_issues": 2,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 2
+      },
+      "pr_labels": {}
     },
     {
       "day": "2017-11-28 17:30:53",
       "open_issues": 3,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 3
+      },
+      "pr_labels": {}
     },
     {
       "day": "2017-12-01 20:43:50",
       "open_issues": 3,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 3
+      },
+      "pr_labels": {}
     },
     {
       "day": "2017-12-01 20:43:50",
       "open_issues": 4,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-01-17 13:08:19",
       "open_issues": 4,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-01-17 13:08:19",
       "open_issues": 3,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 3
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-02-23 22:35:59",
       "open_issues": 3,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 3
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-02-23 22:35:59",
       "open_issues": 4,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-07-09 13:26:05",
       "open_issues": 4,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-07-09 13:26:05",
       "open_issues": 5,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-08-17 12:49:56",
       "open_issues": 5,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-08-17 12:49:56",
       "open_issues": 6,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 1,
+        "feature": 5
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-08-23 17:12:19",
       "open_issues": 6,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 1,
+        "feature": 5
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-08-23 17:12:19",
       "open_issues": 5,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-08-23 17:42:17",
       "open_issues": 5,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-08-23 17:42:17",
       "open_issues": 4,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-12-23 21:40:37",
       "open_issues": 4,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2018-12-23 21:40:37",
       "open_issues": 5,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "feature": 4
+      },
+      "pr_labels": {}
+    },
+    {
+      "day": "2018-12-23 21:41:24",
+      "open_issues": 5,
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "feature": 4
+      },
+      "pr_labels": {}
+    },
+    {
+      "day": "2018-12-23 21:41:24",
+      "open_issues": 5,
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2019-08-24 15:05:30",
       "open_issues": 5,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2019-08-24 15:05:30",
       "open_issues": 6,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2023-04-13 17:07:49",
       "open_issues": 6,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
     },
     {
       "day": "2023-04-13 17:07:49",
       "open_issues": 6,
-      "open_prs": 1
+      "open_prs": 1,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
+    },
+    {
+      "day": "2023-04-13 17:07:51",
+      "open_issues": 6,
+      "open_prs": 1,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {}
+    },
+    {
+      "day": "2023-04-13 17:07:51",
+      "open_issues": 6,
+      "open_prs": 1,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {
+        "dependencies": 1
+      }
     },
     {
       "day": "2023-04-22 01:48:35",
       "open_issues": 6,
-      "open_prs": 1
+      "open_prs": 1,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {
+        "dependencies": 1
+      }
     },
     {
       "day": "2023-04-22 01:48:35",
       "open_issues": 6,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {
+        "dependencies": 0
+      }
     },
     {
       "day": "2023-12-29 17:56:07",
       "open_issues": 6,
-      "open_prs": 0
+      "open_prs": 0,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {
+        "dependencies": 0
+      }
     },
     {
       "day": "2023-12-29 17:56:07",
       "open_issues": 6,
-      "open_prs": 1
+      "open_prs": 1,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {
+        "dependencies": 0
+      }
     },
     {
-      "day": "2024-09-15 23:18:41",
+      "day": "2024-09-16 00:21:10",
       "open_issues": 6,
-      "open_prs": 1
+      "open_prs": 1,
+      "issue_labels": {
+        "bug": 0,
+        "enhancement": 1,
+        "feature": 4
+      },
+      "pr_labels": {
+        "dependencies": 0
+      }
     }
   ]
 }

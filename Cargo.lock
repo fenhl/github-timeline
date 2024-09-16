@@ -547,7 +547,7 @@ checksum = "32085ea23f3234fc7846555e85283ba4de91e21016dc0455a16286d87a292d64"
 
 [[package]]
 name = "github-timeline"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "chrono",
  "clap",
@@ -558,6 +558,7 @@ dependencies = [
  "serde",
  "serde_json_path_to_error",
  "thiserror",
+ "url",
  "wheel",
 ]
 
@@ -1798,6 +1799,7 @@ dependencies = [
  "form_urlencoded",
  "idna",
  "percent-encoding",
+ "serde",
 ]
 
 [[package]]

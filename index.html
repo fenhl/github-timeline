@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title>GitHub Issue & PR Timeline</title>
     <script src="https://cdn.plot.ly/plotly-basic-1.57.1.min.js"></script>
     <script src="timeline.js"></script>
     <style>
@@ -29,6 +30,9 @@
   <div>
   <label for="reposelect">Select Repository:</label>
   <select id="reposelect" onchange="loadTimeline()">
+  </select>
+  <label for="labelselect">Select Label:</label>
+  <select id="labelselect" onchange="loadTimeline()">
   </select>
   <p>Add more repos to this list by opening a <a href="https://github.com/fenhl/github-timeline">pull request</a></p>
   </div>
