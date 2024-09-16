@@ -55,6 +55,8 @@ function loadTimeline() {
 function populateLabels(labels, label) {
   let select = document.getElementById("labelselect");
 
+  select.replaceChildren();
+
   let firstEl = null;
   let anySelected = false;
   for(var i = 0; i < labels.length; i++) {
