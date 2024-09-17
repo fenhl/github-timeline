@@ -558,6 +558,7 @@ dependencies = [
  "serde",
  "serde_json_path_to_error",
  "thiserror",
+ "tokio",
  "url",
  "wheel",
 ]

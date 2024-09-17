@@ -17,6 +17,7 @@ use {
         Deserialize,
         Serialize,
     },
+    tokio::time::sleep,
     url::Url,
     wheel::{
         fs,
@@ -64,23 +65,56 @@ impl FromStr for Repo {
 #[derive(Debug, Deserialize)]
 struct Issue {
     created_at: DateTime<Utc>,
-    closed_at: Option<DateTime<Utc>>,
     pull_request: Option<serde_json::Value>,
     events_url: Url,
 }
 
 #[derive(Deserialize)]
+struct IssueEvent {
+    created_at: DateTime<Utc>,
+    #[serde(flatten)]
+    kind: IssueEventKind,
+}
+
+#[derive(Deserialize)]
 #[serde(tag = "event", rename_all = "lowercase")]
-enum IssueEvent {
+enum IssueEventKind {
     Labeled {
-        created_at: DateTime<Utc>,
         label: Label,
     },
     Unlabeled {
-        created_at: DateTime<Utc>,
         label: Label,
     },
-    #[serde(other)]
+    Closed,
+    Reopened,
+    #[serde(
+        alias = "assigned",
+        alias = "base_ref_changed",
+        alias = "base_ref_deleted",
+        alias = "base_ref_force_pushed",
+        alias = "comment_deleted",
+        alias = "connected",
+        alias = "convert_to_draft",
+        alias = "demilestoned",
+        alias = "head_ref_deleted",
+        alias = "head_ref_force_pushed",
+        alias = "head_ref_restored",
+        alias = "marked_as_duplicate",
+        alias = "mentioned",
+        alias = "merged",
+        alias = "milestoned",
+        alias = "pinned",
+        alias = "ready_for_review",
+        alias = "referenced",
+        alias = "renamed",
+        alias = "review_dismissed",
+        alias = "review_request_removed",
+        alias = "review_requested",
+        alias = "subscribed",
+        alias = "unassigned",
+        alias = "unpinned",
+        alias = "unsubscribed",
+    )]
     Other,
 }
 
@@ -89,15 +123,209 @@ struct Label {
     name: String,
 }
 
+impl Label {
+    fn map(&mut self, org: &str, repo: &str) {
+        match (org, repo) {
+            ("OoTRandomizer", "OoT-Randomizer") => self.ootr_map(),
+            ("midoshouse", "ootr-multiworld") => self.mhmw_map(),
+            _ => {}
+        }
+    }
+
+    fn ootr_map(&mut self) {
+        self.name = match &*self.name {
+            | "Changes Item Table"
+                => format!("Changes Item Table"),
+            | "Algorithm Changes"
+            | "Component: Algorithm"
+                => format!("Component: Algorithm"),
+            | "ASM/C Changes"
+            | "Component: ASM/C"
+                => format!("Component: ASM/C"),
+            | "Component: Cosmetics"
+                => format!("Component: Cosmetics"),
+            | "Component: Documentation"
+                => format!("Component: Documentation"),
+            | "Component: GUI/Website"
+                => format!("Component: GUI/Website"),
+            | "Component: Hints"
+                => format!("Component: Hints"),
+            | "Component: Logic"
+            | "Logic Changes"
+                => format!("Component: Logic"),
+            | "Component: Misc"
+                => format!("Component: Misc"),
+            | "Component: Patching"
+                => format!("Component: Patching"),
+            | "Component: Plandomizer"
+                => format!("Component: Plandomizer"),
+            | "Component: Presets"
+                => format!("Component: Presets"),
+            | "Component: Randomizer Core"
+                => format!("Component: Randomizer Core"),
+            | "Component: Setting"
+                => format!("Component: Setting"),
+            | "Component: Tricks/Glitches"
+                => format!("Component: Tricks/Glitches"),
+            | "Racing Impact"
+                => format!("Racing Impact"),
+            | "Status: Blocked"
+                => format!("Status: Blocked"),
+            | "Status: Duplicate"
+            | "duplicate"
+                => format!("Status: Duplicate"),
+            | "Status: Good First Issue"
+            | "good first issue"
+                => format!("Status: Good First Issue"),
+            | "Status: Help Wanted"
+            | "help wanted"
+                => format!("Status: Help Wanted"),
+            | "Needs Review"
+            | "Status: Needs Review"
+                => format!("Status: Needs Review"),
+            | "Status: Needs Testing"
+                => format!("Status: Needs Testing"),
+            | "Status: Under Consideration"
+                => format!("Status: Under Consideration"),
+            | "Status: Waiting for Author"
+            | "Waiting for Author"
+            | "question"
+                => format!("Status: Waiting for Author"),
+            | "Status: Waiting for Maintainers"
+                => format!("Status: Waiting for Maintainers"),
+            | "Status: Waiting for Release"
+                => format!("Status: Waiting for Release"),
+            | "Status: Won't Fix"
+            | "wontfix"
+                => format!("Status: Won't Fix"),
+            | "Trivial"
+            | "trivial"
+                => format!("Trivial"),
+            | "Type: Bug"
+            | "bug"
+                => format!("Type: Bug"),
+            | "Type: Enhancement"
+            | "enhancement"
+                => format!("Type: Enhancement"),
+            | "Type: Maintenance"
+                => format!("Type: Maintenance"),
+            _ => return,
+        };
+    }
+
+    fn mhmw_map(&mut self) {
+        self.name = match &*self.name {
+            | "component: GUI"
+            | "component: gui"
+                => format!("component: GUI"),
+            | "component: installer"
+                => format!("component: installer"),
+            | "component: server"
+                => format!("component: server"),
+            | "component: updater"
+                => format!("component: updater"),
+            | "bizhawk"
+            | "frontend: BizHawk"
+            | "platform: BizHawk"
+                => format!("frontend: BizHawk"),
+            | "frontend: EverDrive"
+            | "platform: EverDrive"
+                => format!("frontend: EverDrive"),
+            | "frontend: Project64"
+            | "project64"
+                => format!("frontend: Project64"),
+            | "frontend: RetroArch"
+            | "platform: RetroArch"
+                => format!("frontend: RetroArch"),
+            | "has workaround"
+                => format!("has workaround"),
+            | "os: Linux"
+                => format!("os: Linux"),
+            | "os: macOS"
+                => format!("os: macOS"),
+            | "os: Windows"
+                => format!("os: Windows"),
+            | "status: blocked"
+                => format!("status: blocked"),
+            | "status: duplicate"
+                => format!("status: duplicate"),
+            | "status: good first issue"
+                => format!("status: good first issue"),
+            | "help wanted"
+            | "status: help wanted"
+                => format!("status: help wanted"),
+            | "status: in progress"
+                => format!("status: in progress"),
+            | "status: invalid"
+                => format!("status: invalid"),
+            | "status: pending release"
+                => format!("status: pending release"),
+            | "status: question"
+                => format!("status: question"),
+            | "status: released"
+                => format!("status: released"),
+            | "status: wontfix"
+                => format!("status: wontfix"),
+            | "bug"
+            | "type: bug"
+                => format!("type: bug"),
+            | "type: documentation"
+                => format!("type: documentation"),
+            | "enhancement"
+            | "type: enhancement"
+                => format!("type: enhancement"),
+            | "type: maintenance"
+                => format!("type: maintenance"),
+            _ => return,
+        };
+    }
+}
+
 enum Event {
-    IssueOpened,
-    IssueClosed,
-    PullRequestOpened,
-    PullRequestClosed,
+    IssueOpened(HashSet<String>),
+    IssueClosed(HashSet<String>),
+    PullRequestOpened(HashSet<String>),
+    PullRequestClosed(HashSet<String>),
     IssueLabeled(String),
     IssueUnlabeled(String),
     PullRequestLabeled(String),
     PullRequestUnlabeled(String),
+}
+
+trait RequestBuilderExt {
+    async fn send_github(self) -> Result<reqwest::Response, Error>;
+}
+
+impl RequestBuilderExt for reqwest::RequestBuilder {
+    async fn send_github(self) -> Result<reqwest::Response, Error> {
+        let mut exponential_backoff = Duration::from_secs(60);
+        loop {
+            match self.try_clone().ok_or(Error::UncloneableGitHubRequest)?.send().await?.detailed_error_for_status().await {
+                Ok(response) => break Ok(response),
+                Err(wheel::Error::ResponseStatus { inner, headers, text }) if inner.status().is_some_and(|status| matches!(status, reqwest::StatusCode::FORBIDDEN | reqwest::StatusCode::TOO_MANY_REQUESTS)) => {
+                    if let Some(retry_after) = headers.get(reqwest::header::RETRY_AFTER) {
+                        let delta = Duration::from_secs(retry_after.to_str()?.parse()?);
+                        println!("{} Received retry_after, sleeping for {delta:?}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
+                        sleep(delta).await;
+                    } else if headers.get("x-ratelimit-remaining").is_some_and(|x_ratelimit_remaining| x_ratelimit_remaining == "0") {
+                        let now = Utc::now();
+                        let until = DateTime::from_timestamp(headers.get("x-ratelimit-reset").ok_or(Error::MissingRateLimitResetHeader)?.to_str()?.parse()?, 0).ok_or(Error::InvalidDateTime)?;
+                        if let Ok(delta) = (until - now).to_std() {
+                            println!("{} Received x-ratelimit-remaining, sleeping for {delta:?}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
+                            sleep(delta).await;
+                        }
+                    } else if exponential_backoff >= Duration::from_secs(60 * 60) {
+                        break Err(wheel::Error::ResponseStatus { inner, headers, text }.into())
+                    } else {
+                        println!("{} Received unspecific rate limit error, sleeping for {exponential_backoff:?}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
+                        sleep(exponential_backoff).await;
+                        exponential_backoff *= 2;
+                    }
+                }
+                Err(e) => break Err(e.into()),
+            }
+        }
+    }
 }
 
 #[derive(clap::Parser)]
@@ -110,8 +338,20 @@ enum Error {
     #[error(transparent)] HeaderToStr(#[from] reqwest::header::ToStrError),
     #[error(transparent)] InvalidHeaderValue(#[from] reqwest::header::InvalidHeaderValue),
     #[error(transparent)] Json(#[from] serde_json::Error),
+    #[error(transparent)] ParseInt(#[from] std::num::ParseIntError),
     #[error(transparent)] Reqwest(#[from] reqwest::Error),
     #[error(transparent)] Wheel(#[from] wheel::Error),
+    #[error("x-ratelimit-reset header is out of range for chrono::DateTime")]
+    InvalidDateTime,
+    #[error("missing x-ratelimit-reset header in GitHub error response")]
+    MissingRateLimitResetHeader,
+    #[error("attempted to remove a label that wasn't present")]
+    RemovedNonexistentLabel {
+        events_url: Url,
+        label: String,
+    },
+    #[error("attempted to send GitHub API request with streamed body")]
+    UncloneableGitHubRequest,
 }
 
 #[wheel::main]
@@ -129,13 +369,12 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
     for Repo { org, repo } in repos {
         let mut events = BTreeMap::<_, Vec<_>>::default();
         let mut all_issues = Vec::default();
-        println!("Checking {org}/{repo}");
+        println!("{} Checking {org}/{repo}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
         let mut response = http_client.get(&format!("https://api.github.com/repos/{org}/{repo}/issues"))
             .query(&[
                 ("state", "all"),
             ])
-            .send().await?
-            .detailed_error_for_status().await?;
+            .send_github().await?;
         loop {
             if_chain! {
                 if let Some(links) = response.headers().get(reqwest::header::LINK);
@@ -146,61 +385,71 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
                 then {
                     let next = next.to_owned();
                     all_issues.extend(response.json_with_text_in_error::<Vec<Issue>>().await?);
-                    println!("Checking next {org}/{repo} page: {next}");
+                    println!("{} Checking next {org}/{repo} page: {next}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
                     response = http_client.get(next)
-                        .send().await?
-                        .detailed_error_for_status().await?;
+                        .send_github().await?;
                 } else {
                     all_issues.extend(response.json_with_text_in_error::<Vec<Issue>>().await?);
                     break
                 }
             }
         }
-        for Issue { created_at, closed_at, pull_request, events_url } in all_issues {
+        for Issue { created_at, pull_request, events_url } in all_issues {
             events.entry(created_at).or_default().push(if pull_request.is_some() {
-                Event::PullRequestOpened
+                Event::PullRequestOpened(HashSet::default())
             } else {
-                Event::IssueOpened
+                Event::IssueOpened(HashSet::default())
             });
             let mut labels = HashSet::new();
-            println!("Checking {org}/{repo} issue: {events_url}");
-            let issue_events = http_client.get(events_url)
-                .send().await?
-                .detailed_error_for_status().await?
+            println!("{} Checking {org}/{repo} issue: {events_url}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
+            let mut issue_events = http_client.get(events_url.clone())
+                .send_github().await?
                 .json_with_text_in_error::<Vec<IssueEvent>>().await?;
-            for event in issue_events {
-                match event {
-                    IssueEvent::Labeled { created_at, label } => {
-                        labels.insert(label.name.clone());
+            issue_events.sort_by_key(|IssueEvent { created_at, .. }| *created_at);
+            let mut open = true;
+            for IssueEvent { created_at, kind } in issue_events {
+                match kind {
+                    IssueEventKind::Labeled { mut label } => {
+                        label.map(&org, &repo);
+                        if labels.insert(label.name.clone()) && open {
+                            events.entry(created_at).or_default().push(if pull_request.is_some() {
+                                Event::PullRequestLabeled(label.name)
+                            } else {
+                                Event::IssueLabeled(label.name)
+                            });
+                        }
+                    }
+                    IssueEventKind::Unlabeled { mut label } => {
+                        label.map(&org, &repo);
+                        if !labels.remove(&label.name) {
+                            return Err(Error::RemovedNonexistentLabel { events_url, label: label.name })
+                        }
+                        if open {
+                            events.entry(created_at).or_default().push(if pull_request.is_some() {
+                                Event::PullRequestUnlabeled(label.name)
+                            } else {
+                                Event::IssueUnlabeled(label.name)
+                            });
+                        }
+                    }
+                    IssueEventKind::Closed => {
+                        open = false;
                         events.entry(created_at).or_default().push(if pull_request.is_some() {
-                            Event::PullRequestLabeled(label.name)
+                            Event::PullRequestClosed(labels.clone())
                         } else {
-                            Event::IssueLabeled(label.name)
+                            Event::IssueClosed(labels.clone())
                         });
                     }
-                    IssueEvent::Unlabeled { created_at, label } => {
-                        labels.remove(&label.name);
+                    IssueEventKind::Reopened => {
+                        open = true;
                         events.entry(created_at).or_default().push(if pull_request.is_some() {
-                            Event::PullRequestUnlabeled(label.name)
+                            Event::PullRequestOpened(labels.clone())
                         } else {
-                            Event::IssueUnlabeled(label.name)
+                            Event::IssueOpened(labels.clone())
                         });
                     }
-                    IssueEvent::Other => {}
+                    IssueEventKind::Other => {}
                 }
-            }
-            if let Some(closed_at) = closed_at {
-                let entry = events.entry(closed_at).or_default();
-                entry.push(if pull_request.is_some() {
-                    Event::PullRequestClosed
-                } else {
-                    Event::IssueClosed
-                });
-                entry.extend(labels.into_iter().map(if pull_request.is_some() {
-                    Event::PullRequestUnlabeled
-                } else {
-                    Event::IssueUnlabeled
-                }));
             }
         }
         let mut timeline = Vec::with_capacity(events.len());
@@ -217,10 +466,30 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
             });
             for event in events {
                 match event {
-                    Event::IssueOpened => open_issues += 1,
-                    Event::IssueClosed => open_issues -= 1,
-                    Event::PullRequestOpened => open_prs += 1,
-                    Event::PullRequestClosed => open_prs -= 1,
+                    Event::IssueOpened(labels) => {
+                        open_issues += 1;
+                        for label in labels {
+                            *issue_labels.entry(label).or_default() += 1;
+                        }
+                    }
+                    Event::IssueClosed(labels) => {
+                        open_issues -= 1;
+                        for label in labels {
+                            *issue_labels.entry(label).or_default() -= 1;
+                        }
+                    }
+                    Event::PullRequestOpened(labels) => {
+                        open_prs += 1;
+                        for label in labels {
+                            *pr_labels.entry(label).or_default() += 1;
+                        }
+                    }
+                    Event::PullRequestClosed(labels) => {
+                        open_prs -= 1;
+                        for label in labels {
+                            *pr_labels.entry(label).or_default() -= 1;
+                        }
+                    }
                     Event::IssueLabeled(label) => *issue_labels.entry(label).or_default() += 1,
                     Event::IssueUnlabeled(label) => *issue_labels.entry(label).or_default() -= 1,
                     Event::PullRequestLabeled(label) => *pr_labels.entry(label).or_default() += 1,
