@@ -2,6 +2,7 @@
 name = "github-timeline"
 version = "0.1.2"
 edition = "2021"
+repository = "https://github.com/fenhl/github-timeline"
 
 [lints.rust]
 rust_2018_idioms = "deny"

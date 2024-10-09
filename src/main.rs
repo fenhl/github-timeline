@@ -1,9 +1,12 @@
 use {
     std::{
         collections::{
-            BTreeMap,
             BTreeSet,
             HashSet,
+            btree_map::{
+                self,
+                BTreeMap,
+            },
         },
         path::Path,
         str::FromStr,
@@ -21,7 +24,10 @@ use {
     url::Url,
     wheel::{
         fs,
-        traits::ReqwestResponseExt as _,
+        traits::{
+            IoResultExt as _,
+            ReqwestResponseExt as _,
+        },
     },
 };
 
@@ -34,9 +40,15 @@ struct DataPoint {
     pr_labels: BTreeMap<String, usize>,
 }
 
-#[derive(Serialize)]
+#[derive(Default, Deserialize, Serialize)]
 struct Report {
+    #[serde(default)]
+    last_updated: BTreeMap<u32, DateTime<Utc>>,
+    #[serde(default)]
+    issue_events_cache: BTreeMap<u32, Vec<IssueEvent>>,
+    #[serde(skip_deserializing)]
     labels: BTreeSet<String>,
+    #[serde(skip_deserializing)]
     timeline: Vec<DataPoint>,
 }
 
@@ -64,19 +76,21 @@ impl FromStr for Repo {
 
 #[derive(Debug, Deserialize)]
 struct Issue {
+    number: u32,
     created_at: DateTime<Utc>,
+    updated_at: DateTime<Utc>,
     pull_request: Option<serde_json::Value>,
     events_url: Url,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Serialize)]
 struct IssueEvent {
     created_at: DateTime<Utc>,
     #[serde(flatten)]
     kind: IssueEventKind,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Serialize)]
 #[serde(tag = "event", rename_all = "lowercase")]
 enum IssueEventKind {
     Labeled {
@@ -118,166 +132,169 @@ enum IssueEventKind {
     Other,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Serialize)]
 struct Label {
     name: String,
 }
 
 impl Label {
-    fn map(&mut self, org: &str, repo: &str) {
+    #[must_use]
+    fn map(&self, org: &str, repo: &str) -> &str {
         match (org, repo) {
             ("OoTRandomizer", "OoT-Randomizer") => self.ootr_map(),
             ("midoshouse", "ootr-multiworld") => self.mhmw_map(),
-            _ => {}
+            _ => &self.name,
         }
     }
 
-    fn ootr_map(&mut self) {
-        self.name = match &*self.name {
+    #[must_use]
+    fn ootr_map(&self) -> &str {
+        match &*self.name {
             | "Changes Item Table"
-                => format!("Changes Item Table"),
+                => "Changes Item Table",
             | "Algorithm Changes"
             | "Component: Algorithm"
-                => format!("Component: Algorithm"),
+                => "Component: Algorithm",
             | "ASM/C Changes"
             | "Component: ASM/C"
-                => format!("Component: ASM/C"),
+                => "Component: ASM/C",
             | "Component: Cosmetics"
-                => format!("Component: Cosmetics"),
+                => "Component: Cosmetics",
             | "Component: Documentation"
-                => format!("Component: Documentation"),
+                => "Component: Documentation",
             | "Component: GUI/Website"
-                => format!("Component: GUI/Website"),
+                => "Component: GUI/Website",
             | "Component: Hints"
-                => format!("Component: Hints"),
+                => "Component: Hints",
             | "Component: Logic"
             | "Logic Changes"
-                => format!("Component: Logic"),
+                => "Component: Logic",
             | "Component: Misc"
-                => format!("Component: Misc"),
+                => "Component: Misc",
             | "Component: Patching"
-                => format!("Component: Patching"),
+                => "Component: Patching",
             | "Component: Plandomizer"
-                => format!("Component: Plandomizer"),
+                => "Component: Plandomizer",
             | "Component: Presets"
-                => format!("Component: Presets"),
+                => "Component: Presets",
             | "Component: Randomizer Core"
-                => format!("Component: Randomizer Core"),
+                => "Component: Randomizer Core",
             | "Component: Setting"
-                => format!("Component: Setting"),
+                => "Component: Setting",
             | "Component: Tricks/Glitches"
-                => format!("Component: Tricks/Glitches"),
+                => "Component: Tricks/Glitches",
             | "Racing Impact"
-                => format!("Racing Impact"),
+                => "Racing Impact",
             | "Status: Blocked"
-                => format!("Status: Blocked"),
+                => "Status: Blocked",
             | "Status: Duplicate"
             | "duplicate"
-                => format!("Status: Duplicate"),
+                => "Status: Duplicate",
             | "Status: Good First Issue"
             | "good first issue"
-                => format!("Status: Good First Issue"),
+                => "Status: Good First Issue",
             | "Status: Help Wanted"
             | "help wanted"
-                => format!("Status: Help Wanted"),
+                => "Status: Help Wanted",
             | "Needs Review"
             | "Status: Needs Review"
-                => format!("Status: Needs Review"),
+                => "Status: Needs Review",
             | "Status: Needs Testing"
-                => format!("Status: Needs Testing"),
+                => "Status: Needs Testing",
             | "Status: Under Consideration"
-                => format!("Status: Under Consideration"),
+                => "Status: Under Consideration",
             | "Status: Waiting for Author"
             | "Waiting for Author"
             | "question"
-                => format!("Status: Waiting for Author"),
+                => "Status: Waiting for Author",
             | "Status: Waiting for Maintainers"
-                => format!("Status: Waiting for Maintainers"),
+                => "Status: Waiting for Maintainers",
             | "Status: Waiting for Release"
-                => format!("Status: Waiting for Release"),
+                => "Status: Waiting for Release",
             | "Status: Won't Fix"
             | "wontfix"
-                => format!("Status: Won't Fix"),
+                => "Status: Won't Fix",
             | "Trivial"
             | "trivial"
-                => format!("Trivial"),
+                => "Trivial",
             | "Type: Bug"
             | "bug"
-                => format!("Type: Bug"),
+                => "Type: Bug",
             | "Type: Enhancement"
             | "enhancement"
-                => format!("Type: Enhancement"),
+                => "Type: Enhancement",
             | "Type: Maintenance"
-                => format!("Type: Maintenance"),
-            _ => return,
-        };
+                => "Type: Maintenance",
+            _ => &self.name,
+        }
     }
 
-    fn mhmw_map(&mut self) {
-        self.name = match &*self.name {
+    #[must_use]
+    fn mhmw_map(&self) -> &str {
+        match &*self.name {
             | "component: GUI"
             | "component: gui"
-                => format!("component: GUI"),
+                => "component: GUI",
             | "component: installer"
-                => format!("component: installer"),
+                => "component: installer",
             | "component: server"
-                => format!("component: server"),
+                => "component: server",
             | "component: updater"
-                => format!("component: updater"),
+                => "component: updater",
             | "bizhawk"
             | "frontend: BizHawk"
             | "platform: BizHawk"
-                => format!("frontend: BizHawk"),
+                => "frontend: BizHawk",
             | "frontend: EverDrive"
             | "platform: EverDrive"
-                => format!("frontend: EverDrive"),
+                => "frontend: EverDrive",
             | "frontend: Project64"
             | "project64"
-                => format!("frontend: Project64"),
+                => "frontend: Project64",
             | "frontend: RetroArch"
             | "platform: RetroArch"
-                => format!("frontend: RetroArch"),
+                => "frontend: RetroArch",
             | "has workaround"
-                => format!("has workaround"),
+                => "has workaround",
             | "os: Linux"
-                => format!("os: Linux"),
+                => "os: Linux",
             | "os: macOS"
-                => format!("os: macOS"),
+                => "os: macOS",
             | "os: Windows"
-                => format!("os: Windows"),
+                => "os: Windows",
             | "status: blocked"
-                => format!("status: blocked"),
+                => "status: blocked",
             | "status: duplicate"
-                => format!("status: duplicate"),
+                => "status: duplicate",
             | "status: good first issue"
-                => format!("status: good first issue"),
+                => "status: good first issue",
             | "help wanted"
             | "status: help wanted"
-                => format!("status: help wanted"),
+                => "status: help wanted",
             | "status: in progress"
-                => format!("status: in progress"),
+                => "status: in progress",
             | "status: invalid"
-                => format!("status: invalid"),
+                => "status: invalid",
             | "status: pending release"
-                => format!("status: pending release"),
+                => "status: pending release",
             | "status: question"
-                => format!("status: question"),
+                => "status: question",
             | "status: released"
-                => format!("status: released"),
+                => "status: released",
             | "status: wontfix"
-                => format!("status: wontfix"),
+                => "status: wontfix",
             | "bug"
             | "type: bug"
-                => format!("type: bug"),
+                => "type: bug",
             | "type: documentation"
-                => format!("type: documentation"),
+                => "type: documentation",
             | "enhancement"
             | "type: enhancement"
-                => format!("type: enhancement"),
+                => "type: enhancement",
             | "type: maintenance"
-                => format!("type: maintenance"),
-            _ => return,
-        };
+                => "type: maintenance",
+            _ => &self.name,
+        }
     }
 }
 
@@ -359,7 +376,7 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
     let mut headers = reqwest::header::HeaderMap::new();
     headers.insert(reqwest::header::AUTHORIZATION, reqwest::header::HeaderValue::from_str(concat!("token ", env!("GITHUB_TOKEN")))?);
     let http_client = reqwest::Client::builder()
-        .user_agent(concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION")))
+        .user_agent(concat!(env!("CARGO_PKG_NAME"), "/", env!("CARGO_PKG_VERSION"), " (", env!("CARGO_PKG_REPOSITORY"), ")"))
         .default_headers(headers)
         .timeout(Duration::from_secs(600))
         .http2_prior_knowledge()
@@ -367,6 +384,8 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
         .https_only(true)
         .build()?;
     for Repo { org, repo } in repos {
+        let dir = Path::new("data").join(&org);
+        let Report { mut last_updated, mut issue_events_cache, .. } = fs::read_json(dir.join(format!("{repo}.json"))).await.missing_ok()?;
         let mut events = BTreeMap::<_, Vec<_>>::default();
         let mut all_issues = Vec::default();
         println!("{} Checking {org}/{repo}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
@@ -394,7 +413,7 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
                 }
             }
         }
-        for Issue { created_at, pull_request, events_url } in all_issues {
+        for Issue { number, created_at, updated_at, pull_request, events_url } in all_issues {
             events.entry(created_at).or_default().push(if pull_request.is_some() {
                 Event::PullRequestOpened(HashSet::default())
             } else {
@@ -402,39 +421,52 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
             });
             let mut labels = HashSet::new();
             println!("{} Checking {org}/{repo} issue: {events_url}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
-            let mut issue_events = http_client.get(events_url.clone())
-                .send_github().await?
-                .json_with_text_in_error::<Vec<IssueEvent>>().await?;
-            issue_events.sort_by_key(|IssueEvent { created_at, .. }| *created_at);
+            let issue_events = match issue_events_cache.entry(number) {
+                btree_map::Entry::Occupied(mut entry) => if last_updated.get(&number).is_some_and(|&last_updated| last_updated == updated_at) {
+                    entry.into_mut()
+                } else {
+                    let mut issue_events = http_client.get(events_url.clone())
+                        .send_github().await?
+                        .json_with_text_in_error::<Vec<IssueEvent>>().await?;
+                    issue_events.sort_by_key(|IssueEvent { created_at, .. }| *created_at);
+                    *entry.get_mut() = issue_events;
+                    entry.into_mut()
+                },
+                btree_map::Entry::Vacant(entry) => {
+                    let mut issue_events = http_client.get(events_url.clone())
+                        .send_github().await?
+                        .json_with_text_in_error::<Vec<IssueEvent>>().await?;
+                    issue_events.sort_by_key(|IssueEvent { created_at, .. }| *created_at);
+                    entry.insert(issue_events)
+                }
+            };
             let mut open = true;
             for IssueEvent { created_at, kind } in issue_events {
                 match kind {
-                    IssueEventKind::Labeled { mut label } => {
-                        label.map(&org, &repo);
-                        if labels.insert(label.name.clone()) && open {
-                            events.entry(created_at).or_default().push(if pull_request.is_some() {
-                                Event::PullRequestLabeled(label.name)
+                    IssueEventKind::Labeled { label } => {
+                        if labels.insert(label.map(&org, &repo).to_owned()) && open {
+                            events.entry(*created_at).or_default().push(if pull_request.is_some() {
+                                Event::PullRequestLabeled(label.map(&org, &repo).to_owned())
                             } else {
-                                Event::IssueLabeled(label.name)
+                                Event::IssueLabeled(label.map(&org, &repo).to_owned())
                             });
                         }
                     }
-                    IssueEventKind::Unlabeled { mut label } => {
-                        label.map(&org, &repo);
-                        if !labels.remove(&label.name) {
-                            return Err(Error::RemovedNonexistentLabel { events_url, label: label.name })
+                    IssueEventKind::Unlabeled { label } => {
+                        if !labels.remove(label.map(&org, &repo)) {
+                            return Err(Error::RemovedNonexistentLabel { events_url, label: label.map(&org, &repo).to_owned() })
                         }
                         if open {
-                            events.entry(created_at).or_default().push(if pull_request.is_some() {
-                                Event::PullRequestUnlabeled(label.name)
+                            events.entry(*created_at).or_default().push(if pull_request.is_some() {
+                                Event::PullRequestUnlabeled(label.map(&org, &repo).to_owned())
                             } else {
-                                Event::IssueUnlabeled(label.name)
+                                Event::IssueUnlabeled(label.map(&org, &repo).to_owned())
                             });
                         }
                     }
                     IssueEventKind::Closed => {
                         open = false;
-                        events.entry(created_at).or_default().push(if pull_request.is_some() {
+                        events.entry(*created_at).or_default().push(if pull_request.is_some() {
                             Event::PullRequestClosed(labels.clone())
                         } else {
                             Event::IssueClosed(labels.clone())
@@ -442,7 +474,7 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
                     }
                     IssueEventKind::Reopened => {
                         open = true;
-                        events.entry(created_at).or_default().push(if pull_request.is_some() {
+                        events.entry(*created_at).or_default().push(if pull_request.is_some() {
                             Event::PullRequestOpened(labels.clone())
                         } else {
                             Event::IssueOpened(labels.clone())
@@ -451,6 +483,7 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
                     IssueEventKind::Other => {}
                 }
             }
+            last_updated.insert(number, updated_at);
         }
         let mut timeline = Vec::with_capacity(events.len());
         let mut open_issues = 0;
@@ -509,12 +542,11 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
             pr_labels: pr_labels.clone(),
             open_issues, open_prs,
         });
-        let dir = Path::new("data").join(org);
         fs::create_dir_all(&dir).await?;
-        fs::write(dir.join(format!("{repo}.json")), serde_json::to_vec_pretty(&Report {
+        fs::write_json(dir.join(format!("{repo}.json")), Report {
             labels: issue_labels.into_keys().chain(pr_labels.into_keys()).collect(),
-            timeline,
-        })?).await?;
+            last_updated, issue_events_cache, timeline,
+        }).await?;
     }
     Ok(())
 }
