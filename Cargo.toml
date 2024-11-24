@@ -28,6 +28,5 @@ reqwest = { version = "0.12", default-features = false, features = ["charset", "
 serde = { version = "1.0.198", features = ["derive"] }
 serde_json = { package = "serde_json_path_to_error", version = "0.1" }
 thiserror = "1.0.59"
-tokio = { version = "1.40.0", features = ["time"] }
 url = { version = "2.5.2", features = ["serde"] }
-wheel = { git = "https://github.com/fenhl/wheel", branch = "main", features = ["reqwest", "serde", "serde_json", "serde_json_path_to_error"] }
+wheel = { git = "https://github.com/fenhl/wheel", branch = "main", features = ["chrono", "reqwest", "serde", "serde_json", "serde_json_path_to_error"] }
