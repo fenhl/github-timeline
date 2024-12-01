@@ -27,7 +27,8 @@
         "25": "2024-03-28T23:25:40Z",
         "26": "2024-05-26T14:25:55Z",
         "27": "2024-10-05T22:55:39Z",
-        "28": "2024-06-24T20:50:36Z"
+        "28": "2024-06-24T20:50:36Z",
+        "29": "2024-11-30T20:42:42Z"
     },
     "issue_events_cache": {
         "1": [
@@ -629,6 +630,26 @@
             },
             {
                 "created_at": "2024-06-24T20:50:37Z",
+                "event": "other"
+            }
+        ],
+        "29": [
+            {
+                "created_at": "2024-11-30T20:41:38Z",
+                "event": "labeled",
+                "label": {
+                    "name": "bug"
+                }
+            },
+            {
+                "created_at": "2024-11-30T20:41:38Z",
+                "event": "labeled",
+                "label": {
+                    "name": "help wanted"
+                }
+            },
+            {
+                "created_at": "2024-11-30T20:42:42Z",
                 "event": "other"
             }
         ]
@@ -1730,12 +1751,32 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-11-30 18:52:01",
+            "day": "2024-11-30 20:41:38",
             "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
                 "bug": 4,
                 "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-11-30 20:41:38",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-12-01 02:32:55",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 2
             },
             "pr_labels": {}
         }
