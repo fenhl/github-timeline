@@ -113,6 +113,7 @@ enum IssueEventKind {
         alias = "head_ref_deleted",
         alias = "head_ref_force_pushed",
         alias = "head_ref_restored",
+        alias = "issue_type_added",
         alias = "marked_as_duplicate",
         alias = "mentioned",
         alias = "merged",
