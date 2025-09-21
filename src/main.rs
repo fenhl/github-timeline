@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use {
     std::{
         collections::{
@@ -153,7 +155,7 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
         .build()?;
     for Repo { org, repo } in repos {
         let mut all_issues = Vec::default();
-        println!("{} Checking {org}/{repo}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
+        //println!("{} Checking {org}/{repo}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
         let mut response = http_client.get(&format!("https://api.github.com/repos/{org}/{repo}/issues"))
             .send_github(true).await?;
         loop {
@@ -166,7 +168,7 @@ async fn main(Args { repos }: Args) -> Result<(), Error> {
                 then {
                     let next = next.to_owned();
                     all_issues.extend(response.json_with_text_in_error::<Vec<Issue>>().await?);
-                    println!("{} Checking next {org}/{repo} page: {next}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
+                    //println!("{} Checking next {org}/{repo} page: {next}", Utc::now().format("%Y-%m-%d %H:%M:%S"));
                     response = http_client.get(next)
                         .send_github(true).await?;
                 } else {
