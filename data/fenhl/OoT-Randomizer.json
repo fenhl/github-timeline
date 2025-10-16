@@ -677,22 +677,13 @@
     ],
     "timeline": [
         {
-            "day": "2022-05-04 05:00:58",
+            "day": "2022-05-04 05:05:36",
             "open_issues": 0,
             "open_prs": 0,
             "issue_labels": {},
             "pr_labels": {}
         },
         {
-            "day": "2022-05-04 05:00:58",
-            "open_issues": 1,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 1
-            },
-            "pr_labels": {}
-        },
-        {
             "day": "2022-05-04 05:05:36",
             "open_issues": 1,
             "open_prs": 0,
@@ -702,47 +693,47 @@
             "pr_labels": {}
         },
         {
-            "day": "2022-05-04 05:05:36",
-            "open_issues": 2,
+            "day": "2022-06-28 01:30:31",
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-06-28 01:30:31",
-            "open_issues": 2,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2022-06-28 01:30:31",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-07-09 11:07:58",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-07-09 11:07:58",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2022-08-02 05:03:59",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1
             },
             "pr_labels": {}
         },
@@ -751,25 +742,7 @@
             "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2022-08-02 05:03:59",
-            "open_issues": 3,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2022-08-02 09:48:07",
-            "open_issues": 3,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
@@ -778,97 +751,115 @@
             "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
-            "day": "2022-08-20 22:51:55",
-            "open_issues": 2,
+            "day": "2022-08-02 09:48:07",
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 22:51:55",
-            "open_issues": 2,
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2022-08-20 22:51:55",
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 22:52:11",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 22:52:11",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 22:52:19",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 22:52:19",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 3,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 23:33:15",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 3,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-20 23:33:15",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-31 11:57:03",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-08-31 11:57:03",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2022-10-09 02:06:34",
+            "open_issues": 1,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 1
             },
             "pr_labels": {}
         },
@@ -877,25 +868,7 @@
             "open_issues": 2,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2022-10-09 02:06:34",
-            "open_issues": 3,
-            "open_prs": 1,
-            "issue_labels": {
-                "bug": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2022-10-09 15:01:03",
-            "open_issues": 3,
-            "open_prs": 1,
-            "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
@@ -904,88 +877,88 @@
             "open_issues": 2,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2022-10-09 15:01:03",
+            "open_issues": 1,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-12-26 01:23:03",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-12-26 01:23:03",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-12-26 05:41:34",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2022-12-26 05:41:34",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-01-26 19:30:42",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-01-26 19:30:42",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-01-26 21:52:11",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-01-26 21:52:11",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-01-26 22:09:39",
-            "open_issues": 2,
-            "open_prs": 1,
-            "issue_labels": {
-                "bug": 2
+                "bug": 1
             },
             "pr_labels": {}
         },
@@ -999,74 +972,92 @@
             "pr_labels": {}
         },
         {
-            "day": "2023-01-31 22:44:34",
-            "open_issues": 1,
+            "day": "2023-01-26 22:09:39",
+            "open_issues": 0,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-01-31 22:44:34",
-            "open_issues": 1,
+            "open_issues": 0,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-01-31 22:44:34",
+            "open_issues": 0,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-02-01 05:17:02",
-            "open_issues": 1,
+            "open_issues": 0,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-02-01 05:17:02",
-            "open_issues": 1,
+            "open_issues": 0,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-02-01 16:42:27",
-            "open_issues": 1,
+            "open_issues": 0,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-02-01 16:42:27",
-            "open_issues": 1,
+            "open_issues": 0,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-02-01 16:51:16",
-            "open_issues": 1,
+            "open_issues": 0,
             "open_prs": 2,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-02-01 16:51:16",
-            "open_issues": 1,
+            "open_issues": 0,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-03-05 19:16:57",
+            "open_issues": 0,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 0
             },
             "pr_labels": {}
         },
@@ -1075,104 +1066,85 @@
             "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 1
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-03-05 19:16:57",
-            "open_issues": 2,
-            "open_prs": 1,
-            "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-03-06 16:02:31",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 1
+                "bug": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-03-06 16:02:31",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-05-06 21:02:51",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-05-06 21:02:51",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-05-06 22:22:43",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-05-06 22:22:43",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-05-06 23:01:10",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2023-05-06 23:01:10",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
-                "help wanted": 1
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-05-09 00:31:13",
-            "open_issues": 2,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 1
             },
             "pr_labels": {}
@@ -1183,6 +1155,26 @@
             "open_prs": 0,
             "issue_labels": {
                 "bug": 1,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-05-09 00:31:13",
+            "open_issues": 0,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-06-06 00:52:42",
+            "open_issues": 0,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1192,47 +1184,27 @@
             "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 1,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-06-06 00:52:42",
-            "open_issues": 2,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 1,
+                "bug": 0,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-06-06 04:45:08",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 1,
+                "bug": 0,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-06-06 04:45:08",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-06-18 15:43:20",
-            "open_issues": 2,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1248,7 +1220,47 @@
             "pr_labels": {}
         },
         {
+            "day": "2023-06-18 15:43:20",
+            "open_issues": 0,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
             "day": "2023-06-19 22:48:08",
+            "open_issues": 0,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-06-19 22:48:08",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-08-17 05:57:47",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-08-17 05:57:47",
             "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
@@ -1258,31 +1270,11 @@
             "pr_labels": {}
         },
         {
-            "day": "2023-06-19 22:48:08",
-            "open_issues": 2,
+            "day": "2023-08-17 05:58:07",
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
                 "bug": 1,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-08-17 05:57:47",
-            "open_issues": 2,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 1,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-08-17 05:57:47",
-            "open_issues": 2,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1298,61 +1290,41 @@
             "pr_labels": {}
         },
         {
-            "day": "2023-08-17 05:58:07",
-            "open_issues": 3,
+            "day": "2023-08-31 10:15:37",
+            "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 3,
+                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-08-31 10:15:37",
-            "open_issues": 3,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 3,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-08-31 10:15:37",
-            "open_issues": 3,
+            "open_issues": 2,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 3,
+                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-08-31 19:51:22",
-            "open_issues": 3,
+            "open_issues": 2,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 3,
+                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-08-31 19:51:22",
-            "open_issues": 3,
+            "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 3,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2023-11-02 21:40:21",
-            "open_issues": 3,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 3,
+                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1368,41 +1340,61 @@
             "pr_labels": {}
         },
         {
-            "day": "2023-11-08 04:51:28",
-            "open_issues": 2,
+            "day": "2023-11-02 21:40:21",
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-11-08 04:51:28",
-            "open_issues": 2,
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2023-11-08 04:51:28",
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-11-08 05:04:45",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2023-11-08 05:04:45",
-            "open_issues": 2,
+            "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-01-19 18:50:03",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1412,47 +1404,27 @@
             "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-01-19 18:50:03",
-            "open_issues": 3,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2024-01-19 18:50:04",
-            "open_issues": 3,
+            "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 2,
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
         },
         {
             "day": "2024-01-19 18:50:04",
-            "open_issues": 3,
+            "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 3,
-                "help wanted": 0
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-02-01 10:58:10",
-            "open_issues": 3,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 3,
+                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1463,6 +1435,26 @@
             "open_prs": 0,
             "issue_labels": {
                 "bug": 2,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-02-01 10:58:10",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-02-03 15:07:30",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1478,11 +1470,11 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-02-03 15:07:30",
-            "open_issues": 3,
+            "day": "2024-02-16 11:51:00",
+            "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 3,
+                "bug": 2,
                 "help wanted": 0
             },
             "pr_labels": {}
@@ -1493,16 +1485,16 @@
             "open_prs": 0,
             "issue_labels": {
                 "bug": 3,
-                "help wanted": 0
+                "help wanted": 1
             },
             "pr_labels": {}
         },
         {
-            "day": "2024-02-16 11:51:00",
-            "open_issues": 4,
+            "day": "2024-02-16 11:56:03",
+            "open_issues": 3,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 1
             },
             "pr_labels": {}
@@ -1518,131 +1510,131 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-02-16 11:56:03",
-            "open_issues": 5,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 5,
-                "help wanted": 1
-            },
-            "pr_labels": {}
-        },
-        {
             "day": "2024-03-02 10:08:54",
-            "open_issues": 5,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 5,
-                "help wanted": 1
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-02 10:08:54",
-            "open_issues": 6,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 6,
-                "help wanted": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-24 07:01:26",
-            "open_issues": 6,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 6,
-                "help wanted": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-24 07:01:26",
-            "open_issues": 7,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 6,
-                "help wanted": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-24 07:06:24",
-            "open_issues": 7,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 6,
-                "help wanted": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-24 07:06:24",
-            "open_issues": 7,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 7,
-                "help wanted": 3
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-28 17:34:56",
-            "open_issues": 7,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 7,
-                "help wanted": 3
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-28 17:34:56",
-            "open_issues": 7,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 7,
-                "help wanted": 4
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-28 18:30:57",
-            "open_issues": 7,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 7,
-                "help wanted": 4
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-28 18:30:57",
-            "open_issues": 6,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 6,
-                "help wanted": 3
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-28 23:25:40",
-            "open_issues": 6,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 6,
-                "help wanted": 3
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-03-28 23:25:40",
             "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
                 "bug": 4,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-02 10:08:54",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-24 07:01:26",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-24 07:01:26",
+            "open_issues": 6,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-24 07:06:24",
+            "open_issues": 6,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-24 07:06:24",
+            "open_issues": 6,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 6,
+                "help wanted": 3
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-28 17:34:56",
+            "open_issues": 6,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 6,
+                "help wanted": 3
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-28 17:34:56",
+            "open_issues": 6,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 6,
+                "help wanted": 4
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-28 18:30:57",
+            "open_issues": 6,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 6,
+                "help wanted": 4
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-28 18:30:57",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 3
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-28 23:25:40",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 3
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-03-28 23:25:40",
+            "open_issues": 3,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 3,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-05-26 14:25:55",
+            "open_issues": 3,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 3,
                 "help wanted": 1
             },
             "pr_labels": {}
@@ -1658,101 +1650,81 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-05-26 14:25:55",
-            "open_issues": 5,
+            "day": "2024-06-13 00:04:28",
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-13 00:04:28",
-            "open_issues": 5,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 5,
-                "help wanted": 1
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-06-13 00:04:28",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-13 00:57:42",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-13 00:57:42",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-24 13:46:53",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-24 13:46:53",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-24 20:50:36",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-06-24 20:50:36",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 5,
-                "help wanted": 1
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-07-01 20:33:08",
-            "open_issues": 5,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 1
             },
             "pr_labels": {}
@@ -1768,31 +1740,31 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-11-30 20:41:38",
-            "open_issues": 4,
+            "day": "2024-07-01 20:33:08",
+            "open_issues": 3,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 1
             },
             "pr_labels": {}
         },
         {
             "day": "2024-11-30 20:41:38",
-            "open_issues": 5,
+            "open_issues": 3,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 5,
-                "help wanted": 2
+                "bug": 3,
+                "help wanted": 1
             },
             "pr_labels": {}
         },
         {
-            "day": "2025-04-02 07:40:50",
-            "open_issues": 5,
+            "day": "2024-11-30 20:41:38",
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 5,
+                "bug": 4,
                 "help wanted": 2
             },
             "pr_labels": {}
@@ -1808,71 +1780,81 @@
             "pr_labels": {}
         },
         {
+            "day": "2025-04-02 07:40:50",
+            "open_issues": 3,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 3,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2025-04-07 22:07:53",
+            "open_issues": 3,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 3,
+                "help wanted": 2
+            },
+            "pr_labels": {}
+        },
+        {
             "day": "2025-04-07 22:07:53",
             "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 4,
-                "help wanted": 2
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2025-04-07 22:07:53",
-            "open_issues": 5,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 2
             },
             "pr_labels": {}
         },
         {
             "day": "2025-08-07 03:03:30",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 2
             },
             "pr_labels": {}
         },
         {
             "day": "2025-08-07 03:03:30",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 2
             },
             "pr_labels": {}
         },
         {
             "day": "2025-08-16 15:54:48",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 2
             },
             "pr_labels": {}
         },
         {
             "day": "2025-08-16 15:54:48",
-            "open_issues": 5,
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 2
             },
             "pr_labels": {}
         },
         {
-            "day": "2025-10-16 06:53:42",
-            "open_issues": 5,
+            "day": "2025-10-16 10:50:27",
+            "open_issues": 4,
             "open_prs": 0,
             "issue_labels": {
-                "bug": 4,
+                "bug": 3,
                 "help wanted": 2
             },
             "pr_labels": {}
