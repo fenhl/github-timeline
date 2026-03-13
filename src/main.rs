@@ -126,6 +126,7 @@ enum IssueEventKind {
         alias = "review_request_removed",
         alias = "review_requested",
         alias = "subscribed",
+        alias = "transferred",
         alias = "unassigned",
         alias = "unpinned",
         alias = "unsubscribed",
