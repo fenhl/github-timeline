@@ -5,8 +5,8 @@
         "3": "2022-07-27T03:13:58Z",
         "4": "2023-04-20T23:33:17Z",
         "5": "2023-12-29T17:04:50Z",
-        "6": "2023-12-08T15:52:43Z",
-        "7": "2023-01-20T20:40:52Z",
+        "6": "2025-03-02T03:49:33Z",
+        "7": "2025-03-02T17:12:28Z",
         "8": "2023-04-20T23:33:17Z",
         "9": "2023-04-20T23:47:19Z",
         "10": "2023-04-20T23:33:18Z",
@@ -23,8 +23,8 @@
         "21": "2024-09-23T04:43:56Z",
         "22": "2023-07-29T11:02:56Z",
         "23": "2024-04-03T23:58:47Z",
-        "24": "2023-12-19T05:04:30Z",
-        "25": "2024-12-16T08:39:24Z",
+        "24": "2025-09-21T19:19:20Z",
+        "25": "2025-02-03T12:02:30Z",
         "26": "2023-09-18T20:51:45Z",
         "27": "2023-07-14T06:43:25Z",
         "28": "2023-11-03T21:29:09Z",
@@ -37,20 +37,27 @@
         "35": "2023-12-09T13:34:33Z",
         "36": "2023-12-09T11:41:49Z",
         "37": "2023-12-19T05:02:10Z",
-        "38": "2024-01-26T16:54:39Z",
-        "39": "2024-03-25T09:22:44Z",
+        "38": "2025-12-20T07:00:22Z",
+        "39": "2025-11-09T15:43:00Z",
         "40": "2024-03-25T08:53:54Z",
         "41": "2024-11-20T22:02:16Z",
-        "42": "2024-04-19T03:13:05Z",
-        "43": "2024-05-15T04:27:04Z",
+        "42": "2025-09-08T13:55:24Z",
+        "43": "2025-02-27T12:13:06Z",
         "44": "2024-06-20T21:13:01Z",
         "45": "2024-06-20T20:49:21Z",
         "46": "2024-06-24T03:13:07Z",
-        "47": "2024-07-20T19:18:34Z",
+        "47": "2025-02-26T23:13:24Z",
         "48": "2024-09-23T04:44:09Z",
         "49": "2024-09-19T11:42:42Z",
         "50": "2024-10-11T13:31:23Z",
-        "51": "2024-11-19T07:46:16Z"
+        "51": "2024-11-19T07:46:16Z",
+        "52": "2025-02-03T11:38:06Z",
+        "53": "2025-12-30T12:52:23Z",
+        "54": "2025-10-23T04:36:29Z",
+        "56": "2025-06-13T07:45:59Z",
+        "57": "2025-07-09T07:55:52Z",
+        "58": "2025-12-16T03:04:44Z",
+        "59": "2026-02-26T03:01:30Z"
     },
     "issue_events_cache": {
         "1": [
@@ -1352,6 +1359,20 @@
                 "label": {
                     "name": "component: updater"
                 }
+            },
+            {
+                "created_at": "2025-12-20T06:53:04Z",
+                "event": "labeled",
+                "label": {
+                    "name": "os: Linux"
+                }
+            },
+            {
+                "created_at": "2025-12-20T06:53:04Z",
+                "event": "labeled",
+                "label": {
+                    "name": "os: Windows"
+                }
             }
         ],
         "39": [
@@ -1417,6 +1438,10 @@
                 "label": {
                     "name": "status: question"
                 }
+            },
+            {
+                "created_at": "2025-11-09T15:43:00Z",
+                "event": "closed"
             }
         ],
         "40": [
@@ -1513,6 +1538,22 @@
                 "label": {
                     "name": "status: question"
                 }
+            },
+            {
+                "created_at": "2025-01-27T05:09:52Z",
+                "event": "other"
+            },
+            {
+                "created_at": "2025-01-27T05:09:52Z",
+                "event": "other"
+            },
+            {
+                "created_at": "2025-02-18T12:20:59Z",
+                "event": "other"
+            },
+            {
+                "created_at": "2025-02-27T12:11:21Z",
+                "event": "other"
             }
         ],
         "44": [
@@ -1666,6 +1707,13 @@
                 "event": "labeled",
                 "label": {
                     "name": "type: bug"
+                }
+            },
+            {
+                "created_at": "2025-02-26T23:13:24Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: question"
                 }
             }
         ],
@@ -1873,16 +1921,290 @@
                     "name": "status: released"
                 }
             }
+        ],
+        "52": [
+            {
+                "created_at": "2025-01-26T20:42:43Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: enhancement"
+                }
+            },
+            {
+                "created_at": "2025-01-26T20:42:43Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: question"
+                }
+            },
+            {
+                "created_at": "2025-01-26T20:42:43Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: GUI"
+                }
+            },
+            {
+                "created_at": "2025-02-03T11:31:06Z",
+                "event": "unlabeled",
+                "label": {
+                    "name": "status: question"
+                }
+            },
+            {
+                "created_at": "2025-02-03T11:31:06Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: help wanted"
+                }
+            }
+        ],
+        "53": [
+            {
+                "created_at": "2025-02-05T18:11:20Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: enhancement"
+                }
+            },
+            {
+                "created_at": "2025-02-05T18:11:20Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: blocked"
+                }
+            },
+            {
+                "created_at": "2025-02-05T18:11:20Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: GUI"
+                }
+            },
+            {
+                "created_at": "2025-06-02T22:40:17Z",
+                "event": "unlabeled",
+                "label": {
+                    "name": "status: blocked"
+                }
+            },
+            {
+                "created_at": "2025-06-02T22:42:39Z",
+                "event": "other"
+            },
+            {
+                "created_at": "2025-06-02T22:42:39Z",
+                "event": "other"
+            },
+            {
+                "created_at": "2025-06-15T14:52:49Z",
+                "event": "labeled",
+                "label": {
+                    "name": "frontend: SummerCart64"
+                }
+            }
+        ],
+        "54": [
+            {
+                "created_at": "2025-03-09T04:36:45Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: GUI"
+                }
+            },
+            {
+                "created_at": "2025-03-09T04:36:45Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: server"
+                }
+            },
+            {
+                "created_at": "2025-03-09T04:36:45Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: enhancement"
+                }
+            }
+        ],
+        "56": [
+            {
+                "created_at": "2025-06-13T07:46:00Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: bug"
+                }
+            },
+            {
+                "created_at": "2025-06-13T07:46:01Z",
+                "event": "labeled",
+                "label": {
+                    "name": "frontend: Project64"
+                }
+            },
+            {
+                "created_at": "2025-06-13T07:46:01Z",
+                "event": "labeled",
+                "label": {
+                    "name": "has workaround"
+                }
+            },
+            {
+                "created_at": "2025-06-13T07:46:01Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: installer"
+                }
+            }
+        ],
+        "57": [
+            {
+                "created_at": "2025-07-09T07:55:55Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: bug"
+                }
+            },
+            {
+                "created_at": "2025-07-09T07:55:55Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: good first issue"
+                }
+            },
+            {
+                "created_at": "2025-07-09T07:55:55Z",
+                "event": "labeled",
+                "label": {
+                    "name": "has workaround"
+                }
+            },
+            {
+                "created_at": "2025-07-09T07:55:55Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: GUI"
+                }
+            }
+        ],
+        "58": [
+            {
+                "created_at": "2025-12-16T02:24:26Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: bug"
+                }
+            },
+            {
+                "created_at": "2025-12-16T02:24:26Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: updater"
+                }
+            },
+            {
+                "created_at": "2025-12-16T02:50:58Z",
+                "event": "closed"
+            },
+            {
+                "created_at": "2025-12-16T02:53:10Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: pending release"
+                }
+            },
+            {
+                "created_at": "2025-12-16T03:04:07Z",
+                "event": "unlabeled",
+                "label": {
+                    "name": "status: pending release"
+                }
+            },
+            {
+                "created_at": "2025-12-16T03:04:07Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: released"
+                }
+            },
+            {
+                "created_at": "2025-12-16T03:04:44Z",
+                "event": "labeled",
+                "label": {
+                    "name": "has workaround"
+                }
+            }
+        ],
+        "59": [
+            {
+                "created_at": "2026-02-26T02:56:03Z",
+                "event": "labeled",
+                "label": {
+                    "name": "type: bug"
+                }
+            },
+            {
+                "created_at": "2026-02-26T02:56:03Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: question"
+                }
+            },
+            {
+                "created_at": "2026-02-26T02:56:03Z",
+                "event": "labeled",
+                "label": {
+                    "name": "frontend: Project64"
+                }
+            },
+            {
+                "created_at": "2026-02-26T02:56:03Z",
+                "event": "labeled",
+                "label": {
+                    "name": "os: Windows"
+                }
+            },
+            {
+                "created_at": "2026-02-26T02:56:03Z",
+                "event": "labeled",
+                "label": {
+                    "name": "component: installer"
+                }
+            },
+            {
+                "created_at": "2026-02-26T02:59:54Z",
+                "event": "closed"
+            },
+            {
+                "created_at": "2026-02-26T03:01:21Z",
+                "event": "reopened"
+            },
+            {
+                "created_at": "2026-02-26T03:01:30Z",
+                "event": "unlabeled",
+                "label": {
+                    "name": "status: question"
+                }
+            },
+            {
+                "created_at": "2026-02-26T03:01:30Z",
+                "event": "labeled",
+                "label": {
+                    "name": "has workaround"
+                }
+            }
         ]
     },
     "labels": [
         "component: GUI",
         "component: installer",
+        "component: server",
         "component: updater",
         "frontend: BizHawk",
         "frontend: EverDrive",
         "frontend: Project64",
         "frontend: RetroArch",
+        "frontend: SummerCart64",
         "has workaround",
         "os: Linux",
         "os: Windows",
@@ -7213,7 +7535,7 @@
             }
         },
         {
-            "day": "2024-12-16 10:51:19",
+            "day": "2025-01-26 15:18:08",
             "open_issues": 19,
             "open_prs": 1,
             "issue_labels": {
@@ -7235,6 +7557,1748 @@
                 "status: question": 2,
                 "type: bug": 6,
                 "type: enhancement": 10,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-01-26 15:18:08",
+            "open_issues": 20,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 3,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 1,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 10,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-01-26 20:42:43",
+            "open_issues": 20,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 3,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 1,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 10,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-01-26 20:42:43",
+            "open_issues": 20,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 4,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 1,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 11,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-03 11:31:06",
+            "open_issues": 20,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 4,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 1,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 11,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-03 11:31:06",
+            "open_issues": 20,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 4,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 11,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-05 18:06:16",
+            "open_issues": 20,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 4,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 11,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-05 18:06:16",
+            "open_issues": 21,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 4,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 11,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-05 18:11:20",
+            "open_issues": 21,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 4,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 11,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-05 18:11:20",
+            "open_issues": 21,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 5,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 12,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-26 23:13:24",
+            "open_issues": 21,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 5,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 6,
+                "type: enhancement": 12,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-02-26 23:13:24",
+            "open_issues": 21,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 5,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 12,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-03-09 04:36:45",
+            "open_issues": 21,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 5,
+                "component: installer": 4,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 12,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-03-09 04:36:45",
+            "open_issues": 22,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-02 22:40:17",
+            "open_issues": 22,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-02 22:40:17",
+            "open_issues": 22,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-13 07:45:59",
+            "open_issues": 22,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-13 07:45:59",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-13 07:46:00",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 6,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-13 07:46:00",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-13 07:46:01",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 4,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 1,
+                "frontend: RetroArch": 1,
+                "has workaround": 1,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-13 07:46:01",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "has workaround": 2,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-15 14:52:49",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "has workaround": 2,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-06-15 14:52:49",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 2,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-07-09 07:55:52",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 2,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-07-09 07:55:52",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 2,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-07-09 07:55:55",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 2,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 1,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-07-09 07:55:55",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 7,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-11-09 15:43:00",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 7,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-11-09 15:43:00",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-16 02:03:45",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-16 02:03:45",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-16 02:24:26",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-16 02:24:26",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 4,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-16 02:50:58",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 4,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-16 02:50:58",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-20 06:53:04",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 3,
+                "os: Windows": 1,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2025-12-20 06:53:04",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 2,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 02:51:21",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 2,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 02:51:21",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 2,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 02:56:03",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 2,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 02:56:03",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 02:59:54",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 02:59:54",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 2,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 03:01:21",
+            "open_issues": 23,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 5,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 2,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 2,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 7,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 03:01:21",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 03:01:30",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 3,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 3,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-02-26 03:01:30",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 4,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 8,
+                "type: enhancement": 13,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 1,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Project64": 0,
+                "status: waiting for author": 0,
+                "type: enhancement": 1,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-03-12 22:59:46",
+            "open_issues": 24,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 6,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 4,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 2,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 8,
+                "type: enhancement": 13,
                 "type: maintenance": 3
             },
             "pr_labels": {
