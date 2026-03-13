@@ -130,6 +130,7 @@ struct Label {
 
 #[derive(clap::Parser)]
 struct Args {
+    #[clap(default_value = "OoTRandomizer/OoT-Randomizer")]
     repos: Vec<Repo>,
 }
 
