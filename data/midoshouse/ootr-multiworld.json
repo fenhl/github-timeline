@@ -8328,7 +8328,7 @@
             "pr_labels": {}
         },
         {
-            "day": "2026-03-20 00:22:24",
+            "day": "2026-03-25 20:05:54",
             "open_issues": 25,
             "open_prs": 0,
             "issue_labels": {
@@ -8358,9 +8358,9 @@
             "pr_labels": {}
         },
         {
-            "day": "2026-03-20 00:22:24",
-            "open_issues": 25,
-            "open_prs": 1,
+            "day": "2026-03-25 20:05:54",
+            "open_issues": 26,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8388,9 +8388,9 @@
             "pr_labels": {}
         },
         {
-            "day": "2026-03-20 00:26:13",
-            "open_issues": 25,
-            "open_prs": 1,
+            "day": "2026-03-25 20:16:56",
+            "open_issues": 26,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8418,149 +8418,9 @@
             "pr_labels": {}
         },
         {
-            "day": "2026-03-20 00:26:13",
-            "open_issues": 25,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 7,
-                "component: installer": 6,
-                "component: server": 1,
-                "component: updater": 3,
-                "frontend: BizHawk": 3,
-                "frontend: Dolphin": 1,
-                "frontend: EverDrive": 1,
-                "frontend: Project64": 3,
-                "frontend: RetroArch": 1,
-                "frontend: SummerCart64": 1,
-                "has workaround": 4,
-                "os: Linux": 4,
-                "os: Windows": 3,
-                "os: macOS": 0,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 3,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 8,
-                "type: enhancement": 14,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2026-03-25 20:05:54",
-            "open_issues": 25,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 7,
-                "component: installer": 6,
-                "component: server": 1,
-                "component: updater": 3,
-                "frontend: BizHawk": 3,
-                "frontend: Dolphin": 1,
-                "frontend: EverDrive": 1,
-                "frontend: Project64": 3,
-                "frontend: RetroArch": 1,
-                "frontend: SummerCart64": 1,
-                "has workaround": 4,
-                "os: Linux": 4,
-                "os: Windows": 3,
-                "os: macOS": 0,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 3,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 8,
-                "type: enhancement": 14,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2026-03-25 20:05:54",
-            "open_issues": 26,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 7,
-                "component: installer": 6,
-                "component: server": 1,
-                "component: updater": 3,
-                "frontend: BizHawk": 3,
-                "frontend: Dolphin": 1,
-                "frontend: EverDrive": 1,
-                "frontend: Project64": 3,
-                "frontend: RetroArch": 1,
-                "frontend: SummerCart64": 1,
-                "has workaround": 4,
-                "os: Linux": 4,
-                "os: Windows": 3,
-                "os: macOS": 0,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 3,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 8,
-                "type: enhancement": 14,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2026-03-25 20:16:56",
-            "open_issues": 26,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 7,
-                "component: installer": 6,
-                "component: server": 1,
-                "component: updater": 3,
-                "frontend: BizHawk": 3,
-                "frontend: Dolphin": 1,
-                "frontend: EverDrive": 1,
-                "frontend: Project64": 3,
-                "frontend: RetroArch": 1,
-                "frontend: SummerCart64": 1,
-                "has workaround": 4,
-                "os: Linux": 4,
-                "os: Windows": 3,
-                "os: macOS": 0,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 3,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 8,
-                "type: enhancement": 14,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
             "day": "2026-03-25 20:16:56",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8585,17 +8445,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-27 10:23:06",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8620,17 +8475,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-27 10:23:06",
             "open_issues": 26,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8655,17 +8505,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-27 10:23:07",
             "open_issues": 26,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8690,17 +8535,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-27 10:23:07",
             "open_issues": 26,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8725,17 +8565,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-27 10:23:08",
             "open_issues": 26,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -8760,17 +8595,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-27 10:23:08",
             "open_issues": 26,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -8795,17 +8625,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-28 11:14:25",
             "open_issues": 26,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -8830,17 +8655,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-28 11:14:25",
             "open_issues": 27,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -8865,17 +8685,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-28 11:14:26",
             "open_issues": 27,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -8900,17 +8715,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-28 11:14:26",
             "open_issues": 27,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -8935,17 +8745,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-04-21 21:29:07",
             "open_issues": 27,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -8970,17 +8775,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-04-21 21:29:07",
             "open_issues": 28,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -9005,17 +8805,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-04-21 21:29:08",
             "open_issues": 28,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -9040,17 +8835,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-04-21 21:29:08",
             "open_issues": 28,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 10,
                 "component: installer": 6,
@@ -9075,17 +8865,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         },
         {
-            "day": "2026-04-27 16:13:29",
+            "day": "2026-04-27 19:56:55",
             "open_issues": 28,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 10,
                 "component: installer": 6,
@@ -9110,12 +8895,7 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: EverDrive": 1,
-                "frontend: SummerCart64": 1,
-                "type: enhancement": 1
-            }
+            "pr_labels": {}
         }
     ]
 }
