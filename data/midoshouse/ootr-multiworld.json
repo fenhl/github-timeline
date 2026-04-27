@@ -2417,7 +2417,6 @@
         "status: help wanted",
         "status: in progress",
         "status: question",
-        "status: waiting for author",
         "type: bug",
         "type: enhancement",
         "type: maintenance"
@@ -6636,7 +6635,7 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-09-11 02:56:40",
+            "day": "2024-09-11 19:52:01",
             "open_issues": 21,
             "open_prs": 0,
             "issue_labels": {
@@ -6663,185 +6662,7 @@
             "pr_labels": {}
         },
         {
-            "day": "2024-09-11 02:56:40",
-            "open_issues": 21,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 4,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 2,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 12,
-                "type: maintenance": 3
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-09-11 19:45:35",
-            "open_issues": 21,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 4,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 2,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 12,
-                "type: maintenance": 3
-            },
-            "pr_labels": {}
-        },
-        {
-            "day": "2024-09-11 19:45:35",
-            "open_issues": 21,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 4,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 2,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 12,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: Project64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
             "day": "2024-09-11 19:52:01",
-            "open_issues": 21,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 4,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 2,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 12,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: Project64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-11 19:52:01",
-            "open_issues": 21,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 4,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 2,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 12,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: Project64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-14 08:45:56",
-            "open_issues": 21,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 4,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 2,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 12,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "frontend: Project64": 1,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-14 08:45:56",
             "open_issues": 21,
             "open_prs": 0,
             "issue_labels": {
@@ -6865,11 +6686,7 @@
                 "type: enhancement": 12,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2024-09-14 08:45:57",
@@ -6896,11 +6713,7 @@
                 "type: enhancement": 12,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2024-09-14 08:45:57",
@@ -6927,14 +6740,10 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 0
-            }
+            "pr_labels": {}
         },
         {
-            "day": "2024-09-16 19:51:00",
+            "day": "2024-11-20 22:02:07",
             "open_issues": 20,
             "open_prs": 0,
             "issue_labels": {
@@ -6958,754 +6767,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 0
-            }
-        },
-        {
-            "day": "2024-09-16 19:51:00",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 0
-            }
-        },
-        {
-            "day": "2024-09-16 20:18:53",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 0
-            }
-        },
-        {
-            "day": "2024-09-16 20:18:53",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-24 04:12:52",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-24 04:12:52",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-24 04:44:31",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1
-            }
-        },
-        {
-            "day": "2024-09-24 04:44:31",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 1
-            }
-        },
-        {
-            "day": "2024-10-08 15:23:25",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 1
-            }
-        },
-        {
-            "day": "2024-10-08 15:23:25",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 2,
-                "component: updater": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 1
-            }
-        },
-        {
-            "day": "2024-10-08 15:23:41",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 2,
-                "component: updater": 1,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 1
-            }
-        },
-        {
-            "day": "2024-10-08 15:23:41",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-10-09 21:05:39",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-10-09 21:05:39",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-10-10 15:41:29",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-10-10 15:41:29",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-10-19 03:43:06",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-10-19 03:43:06",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 1,
-                "type: enhancement": 2,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-11-19 07:01:23",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 1,
-                "type: enhancement": 2,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-11-19 07:01:23",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-11-19 07:03:19",
-            "open_issues": 20,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-11-19 07:03:19",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2024-11-20 22:02:07",
-            "open_issues": 20,
-            "open_prs": 1,
-            "issue_labels": {
-                "component: GUI": 3,
-                "component: installer": 4,
-                "component: updater": 3,
-                "frontend: BizHawk": 4,
-                "frontend: EverDrive": 2,
-                "frontend: Project64": 1,
-                "frontend: RetroArch": 1,
-                "has workaround": 1,
-                "os: Linux": 4,
-                "os: Windows": 1,
-                "os: macOS": 1,
-                "status: blocked": 0,
-                "status: good first issue": 1,
-                "status: help wanted": 1,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 6,
-                "type: enhancement": 11,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2024-11-20 22:02:07",
             "open_issues": 19,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 3,
                 "component: installer": 4,
@@ -7727,20 +6794,12 @@
                 "type: enhancement": 10,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-01-26 15:18:08",
             "open_issues": 19,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 3,
                 "component: installer": 4,
@@ -7762,20 +6821,12 @@
                 "type: enhancement": 10,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-01-26 15:18:08",
             "open_issues": 20,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 3,
                 "component: installer": 4,
@@ -7797,20 +6848,12 @@
                 "type: enhancement": 10,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-01-26 20:42:43",
             "open_issues": 20,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 3,
                 "component: installer": 4,
@@ -7832,20 +6875,12 @@
                 "type: enhancement": 10,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-01-26 20:42:43",
             "open_issues": 20,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 4,
                 "component: installer": 4,
@@ -7867,20 +6902,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-03 11:31:06",
             "open_issues": 20,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 4,
                 "component: installer": 4,
@@ -7902,20 +6929,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-03 11:31:06",
             "open_issues": 20,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 4,
                 "component: installer": 4,
@@ -7937,20 +6956,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-05 18:06:16",
             "open_issues": 20,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 4,
                 "component: installer": 4,
@@ -7972,20 +6983,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-05 18:06:16",
             "open_issues": 21,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 4,
                 "component: installer": 4,
@@ -8007,20 +7010,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-05 18:11:20",
             "open_issues": 21,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 4,
                 "component: installer": 4,
@@ -8042,20 +7037,12 @@
                 "type: enhancement": 11,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-05 18:11:20",
             "open_issues": 21,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 5,
                 "component: installer": 4,
@@ -8077,20 +7064,12 @@
                 "type: enhancement": 12,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-26 23:13:24",
             "open_issues": 21,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 5,
                 "component: installer": 4,
@@ -8112,20 +7091,12 @@
                 "type: enhancement": 12,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-02-26 23:13:24",
             "open_issues": 21,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 5,
                 "component: installer": 4,
@@ -8147,20 +7118,12 @@
                 "type: enhancement": 12,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-03-09 04:36:45",
             "open_issues": 21,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 5,
                 "component: installer": 4,
@@ -8182,20 +7145,12 @@
                 "type: enhancement": 12,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-03-09 04:36:45",
             "open_issues": 22,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8218,20 +7173,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-02 22:40:17",
             "open_issues": 22,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8254,20 +7201,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-02 22:40:17",
             "open_issues": 22,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8290,20 +7229,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-13 07:45:59",
             "open_issues": 22,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8326,20 +7257,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-13 07:45:59",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8362,20 +7285,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-13 07:46:00",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8398,20 +7313,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-13 07:46:00",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8434,20 +7341,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-13 07:46:01",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 4,
@@ -8470,20 +7369,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-13 07:46:01",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8506,20 +7397,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-15 14:52:49",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8542,20 +7425,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-06-15 14:52:49",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8579,20 +7454,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-07-09 07:55:52",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8616,20 +7483,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-07-09 07:55:52",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8653,20 +7512,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-07-09 07:55:55",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8690,20 +7541,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-07-09 07:55:55",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 5,
@@ -8727,20 +7570,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-11-09 15:43:00",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 5,
@@ -8764,20 +7599,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-11-09 15:43:00",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8801,20 +7628,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-16 02:03:45",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8838,20 +7657,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-16 02:03:45",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8875,20 +7686,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-16 02:24:26",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8912,20 +7715,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-16 02:24:26",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8949,20 +7744,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-16 02:50:58",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -8986,20 +7773,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-16 02:50:58",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9023,20 +7802,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-20 06:53:04",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9060,20 +7831,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2025-12-20 06:53:04",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9097,20 +7860,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 02:51:21",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9134,20 +7889,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 02:51:21",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9171,20 +7918,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 02:56:03",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9208,20 +7947,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 02:56:03",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9245,20 +7976,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 02:59:54",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9282,20 +8005,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 02:59:54",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9319,20 +8034,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 03:01:21",
             "open_issues": 23,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 5,
@@ -9356,20 +8063,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 03:01:21",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9393,20 +8092,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 03:01:30",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9430,20 +8121,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-02-26 03:01:30",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9467,20 +8150,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-15 20:20:44",
             "open_issues": 24,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9504,20 +8179,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-15 20:20:44",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9541,20 +8208,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-15 20:20:46",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 6,
                 "component: installer": 6,
@@ -9578,20 +8237,12 @@
                 "type: enhancement": 13,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-15 20:20:46",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9615,20 +8266,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-15 21:02:47",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9652,20 +8295,12 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-15 21:02:47",
             "open_issues": 25,
-            "open_prs": 1,
+            "open_prs": 0,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9690,15 +8325,37 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
+        },
+        {
+            "day": "2026-03-20 00:22:24",
+            "open_issues": 25,
+            "open_prs": 0,
+            "issue_labels": {
+                "component: GUI": 7,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: Dolphin": 1,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 4,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 3,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 8,
+                "type: enhancement": 14,
+                "type: maintenance": 3
+            },
+            "pr_labels": {}
         },
         {
             "day": "2026-03-20 00:22:24",
@@ -9728,58 +8385,42 @@
                 "type: enhancement": 14,
                 "type: maintenance": 3
             },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2026-03-20 00:22:24",
-            "open_issues": 25,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 7,
-                "component: installer": 6,
-                "component: server": 1,
-                "component: updater": 3,
-                "frontend: BizHawk": 3,
-                "frontend: Dolphin": 1,
-                "frontend: EverDrive": 1,
-                "frontend: Project64": 3,
-                "frontend: RetroArch": 1,
-                "frontend: SummerCart64": 1,
-                "has workaround": 4,
-                "os: Linux": 4,
-                "os: Windows": 3,
-                "os: macOS": 0,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 3,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 8,
-                "type: enhancement": 14,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
+            "pr_labels": {}
         },
         {
             "day": "2026-03-20 00:26:13",
             "open_issues": 25,
-            "open_prs": 2,
+            "open_prs": 1,
+            "issue_labels": {
+                "component: GUI": 7,
+                "component: installer": 6,
+                "component: server": 1,
+                "component: updater": 3,
+                "frontend: BizHawk": 3,
+                "frontend: Dolphin": 1,
+                "frontend: EverDrive": 1,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 4,
+                "os: Linux": 4,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 0,
+                "status: good first issue": 2,
+                "status: help wanted": 3,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 8,
+                "type: enhancement": 14,
+                "type: maintenance": 3
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2026-03-20 00:26:13",
+            "open_issues": 25,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9806,58 +8447,15 @@
             },
             "pr_labels": {
                 "component: GUI": 1,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: Project64": 0,
-                "status: waiting for author": 0,
-                "type: enhancement": 1,
-                "type: maintenance": 0
-            }
-        },
-        {
-            "day": "2026-03-20 00:26:13",
-            "open_issues": 25,
-            "open_prs": 2,
-            "issue_labels": {
-                "component: GUI": 7,
-                "component: installer": 6,
-                "component: server": 1,
-                "component: updater": 3,
-                "frontend: BizHawk": 3,
-                "frontend: Dolphin": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 3,
-                "frontend: RetroArch": 1,
                 "frontend: SummerCart64": 1,
-                "has workaround": 4,
-                "os: Linux": 4,
-                "os: Windows": 3,
-                "os: macOS": 0,
-                "status: blocked": 0,
-                "status: good first issue": 2,
-                "status: help wanted": 3,
-                "status: in progress": 1,
-                "status: question": 2,
-                "type: bug": 8,
-                "type: enhancement": 14,
-                "type: maintenance": 3
-            },
-            "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
-                "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
-                "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-25 20:05:54",
             "open_issues": 25,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9883,21 +8481,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-25 20:05:54",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9923,21 +8516,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-25 20:16:56",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -9963,21 +8551,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-25 20:16:56",
             "open_issues": 25,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -10003,21 +8586,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-27 10:23:06",
             "open_issues": 25,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -10043,21 +8621,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-27 10:23:06",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -10083,21 +8656,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-27 10:23:07",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -10123,21 +8691,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-27 10:23:07",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -10163,21 +8726,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-27 10:23:08",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 7,
                 "component: installer": 6,
@@ -10203,21 +8761,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-27 10:23:08",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -10243,21 +8796,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-28 11:14:25",
             "open_issues": 26,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -10283,21 +8831,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-28 11:14:25",
             "open_issues": 27,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -10323,21 +8866,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-28 11:14:26",
             "open_issues": 27,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 8,
                 "component: installer": 6,
@@ -10363,21 +8901,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-03-28 11:14:26",
             "open_issues": 27,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -10403,21 +8936,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-04-21 21:29:07",
             "open_issues": 27,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -10443,21 +8971,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-04-21 21:29:07",
             "open_issues": 28,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -10483,21 +9006,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-04-21 21:29:08",
             "open_issues": 28,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 9,
                 "component: installer": 6,
@@ -10523,21 +9041,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
             "day": "2026-04-21 21:29:08",
             "open_issues": 28,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 10,
                 "component: installer": 6,
@@ -10563,21 +9076,16 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         },
         {
-            "day": "2026-04-27 12:11:05",
+            "day": "2026-04-27 16:13:29",
             "open_issues": 28,
-            "open_prs": 2,
+            "open_prs": 1,
             "issue_labels": {
                 "component: GUI": 10,
                 "component: installer": 6,
@@ -10603,15 +9111,10 @@
                 "type: maintenance": 3
             },
             "pr_labels": {
-                "component: GUI": 2,
-                "component: installer": 1,
-                "component: updater": 0,
+                "component: GUI": 1,
                 "frontend: EverDrive": 1,
-                "frontend: Project64": 0,
                 "frontend: SummerCart64": 1,
-                "status: waiting for author": 0,
-                "type: enhancement": 2,
-                "type: maintenance": 0
+                "type: enhancement": 1
             }
         }
     ]
