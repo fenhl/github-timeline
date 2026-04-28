@@ -685,25 +685,79 @@
             "pr_labels": {}
         },
         {
-            "day": "2022-04-22 21:47:35",
+            "day": "2021-08-26 19:25:40",
             "open_issues": 1,
             "open_prs": 0,
             "issue_labels": {},
             "pr_labels": {}
         },
         {
+            "day": "2021-08-26 19:25:40",
+            "open_issues": 1,
+            "open_prs": 1,
+            "issue_labels": {},
+            "pr_labels": {}
+        },
+        {
+            "day": "2021-08-27 20:38:31",
+            "open_issues": 1,
+            "open_prs": 1,
+            "issue_labels": {},
+            "pr_labels": {}
+        },
+        {
+            "day": "2021-08-27 20:38:31",
+            "open_issues": 1,
+            "open_prs": 1,
+            "issue_labels": {},
+            "pr_labels": {
+                "enhancement": 1
+            }
+        },
+        {
+            "day": "2021-08-27 22:32:14",
+            "open_issues": 1,
+            "open_prs": 1,
+            "issue_labels": {},
+            "pr_labels": {
+                "enhancement": 1
+            }
+        },
+        {
+            "day": "2021-08-27 22:32:14",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {},
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2022-04-22 21:47:35",
+            "open_issues": 1,
+            "open_prs": 0,
+            "issue_labels": {},
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
             "day": "2022-04-22 21:47:35",
             "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {},
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-04-23 22:37:56",
             "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {},
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-04-23 22:37:56",
@@ -712,7 +766,9 @@
             "issue_labels": {
                 "enhancement": 1
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-04-23 22:38:23",
@@ -721,7 +777,9 @@
             "issue_labels": {
                 "enhancement": 1
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-04-23 22:38:23",
@@ -730,7 +788,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-05-20 07:30:34",
@@ -739,7 +799,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-05-20 07:30:34",
@@ -748,7 +810,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-07-20 12:06:23",
@@ -757,7 +821,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2022-07-20 12:06:23",
@@ -766,7 +832,9 @@
             "issue_labels": {
                 "enhancement": 3
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2023-09-05 00:07:08",
@@ -775,7 +843,9 @@
             "issue_labels": {
                 "enhancement": 3
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2023-09-05 00:07:08",
@@ -784,7 +854,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2023-11-17 12:30:53",
@@ -793,7 +865,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2023-11-17 12:30:53",
@@ -802,7 +876,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-01-22 05:56:05",
@@ -811,7 +887,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-01-22 05:56:05",
@@ -820,7 +898,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-05-22 16:49:27",
@@ -829,7 +909,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-05-22 16:49:27",
@@ -838,7 +920,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-09-15 09:13:59",
@@ -847,7 +931,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-09-15 09:13:59",
@@ -856,7 +942,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-09-15 22:13:17",
@@ -865,7 +953,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-09-15 22:13:17",
@@ -874,7 +964,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-12-25 15:23:56",
@@ -883,7 +975,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-12-25 15:23:56",
@@ -892,7 +986,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-12-25 21:04:39",
@@ -901,7 +997,9 @@
             "issue_labels": {
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-12-25 21:04:39",
@@ -911,7 +1009,9 @@
                 "bug": 1,
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-12-27 15:59:35",
@@ -921,7 +1021,9 @@
                 "bug": 1,
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2024-12-27 15:59:35",
@@ -931,7 +1033,9 @@
                 "bug": 1,
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2025-04-02 13:23:14",
@@ -941,7 +1045,9 @@
                 "bug": 1,
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2025-04-02 13:23:14",
@@ -951,7 +1057,9 @@
                 "bug": 1,
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2025-04-02 13:23:15",
@@ -961,7 +1069,9 @@
                 "bug": 1,
                 "enhancement": 2
             },
-            "pr_labels": {}
+            "pr_labels": {
+                "enhancement": 0
+            }
         },
         {
             "day": "2025-04-02 13:23:15",
@@ -973,6 +1083,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -986,6 +1097,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -999,6 +1111,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1012,6 +1125,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1025,6 +1139,7 @@
             },
             "pr_labels": {
                 "dependencies": 2,
+                "enhancement": 0,
                 "rust": 2
             }
         },
@@ -1038,6 +1153,7 @@
             },
             "pr_labels": {
                 "dependencies": 2,
+                "enhancement": 0,
                 "rust": 2
             }
         },
@@ -1051,6 +1167,7 @@
             },
             "pr_labels": {
                 "dependencies": 2,
+                "enhancement": 0,
                 "rust": 2
             }
         },
@@ -1064,6 +1181,7 @@
             },
             "pr_labels": {
                 "dependencies": 2,
+                "enhancement": 0,
                 "rust": 2
             }
         },
@@ -1077,6 +1195,7 @@
             },
             "pr_labels": {
                 "dependencies": 3,
+                "enhancement": 0,
                 "rust": 3
             }
         },
@@ -1090,6 +1209,7 @@
             },
             "pr_labels": {
                 "dependencies": 3,
+                "enhancement": 0,
                 "rust": 3
             }
         },
@@ -1103,6 +1223,7 @@
             },
             "pr_labels": {
                 "dependencies": 2,
+                "enhancement": 0,
                 "rust": 2
             }
         },
@@ -1116,6 +1237,7 @@
             },
             "pr_labels": {
                 "dependencies": 2,
+                "enhancement": 0,
                 "rust": 2
             }
         },
@@ -1129,6 +1251,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1142,6 +1265,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1155,6 +1279,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1168,6 +1293,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1181,6 +1307,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1194,6 +1321,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1207,6 +1335,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1220,6 +1349,7 @@
             },
             "pr_labels": {
                 "dependencies": 1,
+                "enhancement": 0,
                 "rust": 1
             }
         },
@@ -1233,6 +1363,7 @@
             },
             "pr_labels": {
                 "dependencies": 0,
+                "enhancement": 0,
                 "rust": 0
             }
         },
@@ -1246,6 +1377,7 @@
             },
             "pr_labels": {
                 "dependencies": 0,
+                "enhancement": 0,
                 "rust": 0
             }
         },
@@ -1259,6 +1391,7 @@
             },
             "pr_labels": {
                 "dependencies": 0,
+                "enhancement": 0,
                 "rust": 0
             }
         },
@@ -1272,6 +1405,7 @@
             },
             "pr_labels": {
                 "dependencies": 0,
+                "enhancement": 0,
                 "rust": 0
             }
         },
@@ -1286,11 +1420,12 @@
             "pr_labels": {
                 "bug": 1,
                 "dependencies": 0,
+                "enhancement": 0,
                 "rust": 0
             }
         },
         {
-            "day": "2026-04-28 20:05:17",
+            "day": "2026-04-28 23:34:24",
             "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
@@ -1300,6 +1435,7 @@
             "pr_labels": {
                 "bug": 1,
                 "dependencies": 0,
+                "enhancement": 0,
                 "rust": 0
             }
         }
