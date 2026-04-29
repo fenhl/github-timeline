@@ -74,6 +74,7 @@
     },
     "labels": [
         "bug",
+        "dependencies",
         "help wanted"
     ],
     "timeline": [
@@ -183,7 +184,7 @@
             "pr_labels": {}
         },
         {
-            "day": "2026-04-29 08:59:47",
+            "day": "2024-04-19 20:15:03",
             "open_issues": 0,
             "open_prs": 0,
             "issue_labels": {
@@ -191,6 +192,74 @@
                 "help wanted": 0
             },
             "pr_labels": {}
+        },
+        {
+            "day": "2024-04-19 20:15:03",
+            "open_issues": 0,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-04-19 20:15:04",
+            "open_issues": 0,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-04-19 20:15:04",
+            "open_issues": 0,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {
+                "dependencies": 1
+            }
+        },
+        {
+            "day": "2024-04-19 20:18:29",
+            "open_issues": 0,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {
+                "dependencies": 1
+            }
+        },
+        {
+            "day": "2024-04-19 20:18:29",
+            "open_issues": 0,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {
+                "dependencies": 0
+            }
+        },
+        {
+            "day": "2026-04-29 12:07:34",
+            "open_issues": 0,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 0,
+                "help wanted": 0
+            },
+            "pr_labels": {
+                "dependencies": 0
+            }
         }
     ]
 }
