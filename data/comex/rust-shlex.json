@@ -1005,6 +1005,50 @@
             }
         },
         {
+            "day": "2023-05-28 05:53:55",
+            "open_issues": 3,
+            "open_prs": 0,
+            "issue_labels": {
+                "enhancement": 3
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-05-28 05:53:55",
+            "open_issues": 3,
+            "open_prs": 1,
+            "issue_labels": {
+                "enhancement": 3
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-09-05 00:07:07",
+            "open_issues": 3,
+            "open_prs": 1,
+            "issue_labels": {
+                "enhancement": 3
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-09-05 00:07:07",
+            "open_issues": 3,
+            "open_prs": 0,
+            "issue_labels": {
+                "enhancement": 3
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
             "day": "2023-09-05 00:07:08",
             "open_issues": 3,
             "open_prs": 0,
@@ -1027,6 +1071,50 @@
             }
         },
         {
+            "day": "2023-11-14 16:51:42",
+            "open_issues": 2,
+            "open_prs": 0,
+            "issue_labels": {
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-11-14 16:51:42",
+            "open_issues": 2,
+            "open_prs": 1,
+            "issue_labels": {
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-11-14 17:46:17",
+            "open_issues": 2,
+            "open_prs": 1,
+            "issue_labels": {
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-11-14 17:46:17",
+            "open_issues": 2,
+            "open_prs": 0,
+            "issue_labels": {
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
             "day": "2023-11-17 12:30:53",
             "open_issues": 2,
             "open_prs": 0,
@@ -1593,7 +1681,7 @@
             }
         },
         {
-            "day": "2026-04-29 05:41:12",
+            "day": "2026-04-29 08:59:45",
             "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {
