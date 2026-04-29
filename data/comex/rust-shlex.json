@@ -1115,7 +1115,7 @@
             }
         },
         {
-            "day": "2023-11-17 12:30:53",
+            "day": "2023-11-14 19:28:53",
             "open_issues": 2,
             "open_prs": 0,
             "issue_labels": {
@@ -1126,9 +1126,31 @@
             }
         },
         {
+            "day": "2023-11-14 19:28:53",
+            "open_issues": 2,
+            "open_prs": 1,
+            "issue_labels": {
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2023-11-17 12:30:53",
+            "open_issues": 2,
+            "open_prs": 1,
+            "issue_labels": {
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
             "day": "2023-11-17 12:30:53",
             "open_issues": 3,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1139,7 +1161,7 @@
         {
             "day": "2024-01-22 05:56:05",
             "open_issues": 3,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1150,7 +1172,7 @@
         {
             "day": "2024-01-22 05:56:05",
             "open_issues": 2,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1161,7 +1183,7 @@
         {
             "day": "2024-05-22 16:49:27",
             "open_issues": 2,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1172,7 +1194,7 @@
         {
             "day": "2024-05-22 16:49:27",
             "open_issues": 3,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1183,7 +1205,7 @@
         {
             "day": "2024-09-15 09:13:59",
             "open_issues": 3,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1194,7 +1216,7 @@
         {
             "day": "2024-09-15 09:13:59",
             "open_issues": 4,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1205,7 +1227,7 @@
         {
             "day": "2024-09-15 22:13:17",
             "open_issues": 4,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1216,7 +1238,7 @@
         {
             "day": "2024-09-15 22:13:17",
             "open_issues": 3,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1227,7 +1249,7 @@
         {
             "day": "2024-12-25 15:23:56",
             "open_issues": 3,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1238,7 +1260,7 @@
         {
             "day": "2024-12-25 15:23:56",
             "open_issues": 4,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1249,7 +1271,7 @@
         {
             "day": "2024-12-25 21:04:39",
             "open_issues": 4,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "enhancement": 2
             },
@@ -1260,19 +1282,7 @@
         {
             "day": "2024-12-25 21:04:39",
             "open_issues": 4,
-            "open_prs": 0,
-            "issue_labels": {
-                "bug": 1,
-                "enhancement": 2
-            },
-            "pr_labels": {
-                "enhancement": 0
-            }
-        },
-        {
-            "day": "2024-12-27 15:59:35",
-            "open_issues": 4,
-            "open_prs": 0,
+            "open_prs": 1,
             "issue_labels": {
                 "bug": 1,
                 "enhancement": 2
@@ -1294,9 +1304,9 @@
             }
         },
         {
-            "day": "2025-04-02 13:23:14",
+            "day": "2024-12-27 15:59:35",
             "open_issues": 4,
-            "open_prs": 1,
+            "open_prs": 2,
             "issue_labels": {
                 "bug": 1,
                 "enhancement": 2
@@ -1318,9 +1328,9 @@
             }
         },
         {
-            "day": "2025-04-02 13:23:15",
+            "day": "2025-04-02 13:23:14",
             "open_issues": 4,
-            "open_prs": 2,
+            "open_prs": 3,
             "issue_labels": {
                 "bug": 1,
                 "enhancement": 2
@@ -1331,6 +1341,46 @@
         },
         {
             "day": "2025-04-02 13:23:15",
+            "open_issues": 4,
+            "open_prs": 3,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "enhancement": 0
+            }
+        },
+        {
+            "day": "2025-04-02 13:23:15",
+            "open_issues": 4,
+            "open_prs": 3,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "dependencies": 1,
+                "enhancement": 0,
+                "rust": 1
+            }
+        },
+        {
+            "day": "2025-09-29 11:46:44",
+            "open_issues": 4,
+            "open_prs": 3,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 2
+            },
+            "pr_labels": {
+                "dependencies": 1,
+                "enhancement": 0,
+                "rust": 1
+            }
+        },
+        {
+            "day": "2025-09-29 11:46:44",
             "open_issues": 4,
             "open_prs": 2,
             "issue_labels": {
@@ -1681,7 +1731,7 @@
             }
         },
         {
-            "day": "2026-04-29 16:18:27",
+            "day": "2026-04-29 20:03:20",
             "open_issues": 4,
             "open_prs": 1,
             "issue_labels": {

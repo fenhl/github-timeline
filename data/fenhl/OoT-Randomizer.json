@@ -1748,6 +1748,46 @@
             "pr_labels": {}
         },
         {
+            "day": "2024-06-24 13:46:53",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-06-24 13:46:53",
+            "open_issues": 5,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-06-24 20:50:36",
+            "open_issues": 5,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
+            "day": "2024-06-24 20:50:36",
+            "open_issues": 5,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 5,
+                "help wanted": 1
+            },
+            "pr_labels": {}
+        },
+        {
             "day": "2024-07-01 20:33:08",
             "open_issues": 5,
             "open_prs": 0,
@@ -1968,7 +2008,7 @@
             "pr_labels": {}
         },
         {
-            "day": "2026-04-29 16:18:29",
+            "day": "2026-04-29 20:03:22",
             "open_issues": 6,
             "open_prs": 1,
             "issue_labels": {
