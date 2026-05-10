@@ -334,6 +334,7 @@ enum Error {
 
 #[wheel::main]
 async fn main(Args { repos }: Args) -> Result<(), Error> {
+    let _ = rustls::crypto::ring::default_provider().install_default();
     let mut headers = reqwest::header::HeaderMap::new();
     headers.insert(reqwest::header::AUTHORIZATION, reqwest::header::HeaderValue::from_str(concat!("token ", env!("GITHUB_TOKEN")))?);
     let http_client = reqwest::Client::builder()

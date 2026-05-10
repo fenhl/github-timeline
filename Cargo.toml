@@ -23,12 +23,13 @@ strip = true
 chrono = { version = "0.4", default-features = false, features = ["serde", "clock"] }
 clap = { version = "4", features = ["derive"] }
 if_chain = "1"
-itertools = "0.13"
+itertools = "0.14"
 lazy-regex = "3"
 mimalloc = "0.1"
-reqwest = { version = "0.12", default-features = false, features = ["charset", "http2", "macos-system-configuration", "rustls-tls"] }
+reqwest = { version = "0.13", default-features = false, features = ["charset", "gzip", "http2", "query", "rustls-no-provider", "system-proxy", "zstd"] }
+rustls = { version = "0.23", default-features = false, features = ["ring"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = { package = "serde_json_path_to_error", version = "0.1" }
-thiserror = "1"
+thiserror = "2"
 url = { version = "2", features = ["serde"] }
-wheel = { git = "https://github.com/fenhl/wheel", branch = "main", features = ["chrono", "reqwest", "serde", "serde_json", "serde_json_path_to_error"] }
+wheel = { git = "https://github.com/fenhl/wheel", branch = "main", features = ["chrono", "reqwest", "serde_json"] }
