@@ -36,7 +36,8 @@
         "34": "2026-04-22T11:45:19Z",
         "35": "2026-04-25T12:34:27Z",
         "36": "2026-05-02T17:02:26Z",
-        "37": "2026-05-09T11:25:59Z"
+        "37": "2026-05-09T11:25:59Z",
+        "38": "2026-05-16T11:25:15Z"
     },
     "issue_events_cache": {
         "1": [
@@ -914,6 +915,48 @@
             },
             {
                 "created_at": "2026-05-09T11:25:59Z",
+                "event": "other"
+            }
+        ],
+        "38": [
+            {
+                "created_at": "2026-05-16T11:23:46Z",
+                "event": "labeled",
+                "label": {
+                    "name": "dependencies"
+                }
+            },
+            {
+                "created_at": "2026-05-16T11:23:46Z",
+                "event": "labeled",
+                "label": {
+                    "name": "rust"
+                }
+            },
+            {
+                "created_at": "2026-05-16T11:23:47Z",
+                "event": "labeled",
+                "label": {
+                    "name": "dependencies"
+                }
+            },
+            {
+                "created_at": "2026-05-16T11:23:47Z",
+                "event": "labeled",
+                "label": {
+                    "name": "rust"
+                }
+            },
+            {
+                "created_at": "2026-05-16T11:25:08Z",
+                "event": "other"
+            },
+            {
+                "created_at": "2026-05-16T11:25:08Z",
+                "event": "closed"
+            },
+            {
+                "created_at": "2026-05-16T11:25:15Z",
                 "event": "other"
             }
         ]
@@ -2692,7 +2735,63 @@
             }
         },
         {
-            "day": "2026-05-16 08:27:38",
+            "day": "2026-05-16 11:23:46",
+            "open_issues": 18,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 3,
+                "feature": 12
+            },
+            "pr_labels": {
+                "dependencies": 0,
+                "rust": 0
+            }
+        },
+        {
+            "day": "2026-05-16 11:23:46",
+            "open_issues": 18,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 3,
+                "feature": 12
+            },
+            "pr_labels": {
+                "dependencies": 1,
+                "rust": 1
+            }
+        },
+        {
+            "day": "2026-05-16 11:25:08",
+            "open_issues": 18,
+            "open_prs": 1,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 3,
+                "feature": 12
+            },
+            "pr_labels": {
+                "dependencies": 1,
+                "rust": 1
+            }
+        },
+        {
+            "day": "2026-05-16 11:25:08",
+            "open_issues": 18,
+            "open_prs": 0,
+            "issue_labels": {
+                "bug": 1,
+                "enhancement": 3,
+                "feature": 12
+            },
+            "pr_labels": {
+                "dependencies": 0,
+                "rust": 0
+            }
+        },
+        {
+            "day": "2026-05-16 11:34:55",
             "open_issues": 18,
             "open_prs": 0,
             "issue_labels": {
