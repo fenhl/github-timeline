@@ -65,7 +65,7 @@
         "64": "2026-03-28T11:14:25Z",
         "65": "2026-04-21T21:29:07Z",
         "66": "2026-05-14T15:07:29Z",
-        "67": "2026-05-23T04:02:39Z"
+        "67": "2026-06-21T18:04:08Z"
     },
     "issue_events_cache": {
         "1": [
@@ -2473,6 +2473,20 @@
                 "event": "labeled",
                 "label": {
                     "name": "status: waiting for author"
+                }
+            },
+            {
+                "created_at": "2026-06-21T18:04:08Z",
+                "event": "unlabeled",
+                "label": {
+                    "name": "status: waiting for author"
+                }
+            },
+            {
+                "created_at": "2026-06-21T18:04:08Z",
+                "event": "labeled",
+                "label": {
+                    "name": "status: in progress"
                 }
             }
         ]
@@ -11223,7 +11237,7 @@
             }
         },
         {
-            "day": "2026-06-21 16:20:02",
+            "day": "2026-06-21 18:04:08",
             "open_issues": 29,
             "open_prs": 3,
             "issue_labels": {
@@ -11260,6 +11274,90 @@
                 "frontend: SummerCart64": 2,
                 "status: in progress": 0,
                 "status: waiting for author": 1,
+                "type: enhancement": 3,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-06-21 18:04:08",
+            "open_issues": 29,
+            "open_prs": 3,
+            "issue_labels": {
+                "component: GUI": 11,
+                "component: installer": 6,
+                "component: server": 2,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: Dolphin": 1,
+                "frontend: EverDrive": 2,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 5,
+                "os: Linux": 5,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 2,
+                "status: help wanted": 4,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 12,
+                "type: enhancement": 14,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 2,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Dolphin": 1,
+                "frontend: EverDrive": 2,
+                "frontend: Project64": 0,
+                "frontend: SummerCart64": 2,
+                "status: in progress": 1,
+                "status: waiting for author": 0,
+                "type: enhancement": 3,
+                "type: maintenance": 0
+            }
+        },
+        {
+            "day": "2026-06-21 20:15:54",
+            "open_issues": 29,
+            "open_prs": 3,
+            "issue_labels": {
+                "component: GUI": 11,
+                "component: installer": 6,
+                "component: server": 2,
+                "component: updater": 3,
+                "frontend: BizHawk": 4,
+                "frontend: Dolphin": 1,
+                "frontend: EverDrive": 2,
+                "frontend: Project64": 3,
+                "frontend: RetroArch": 1,
+                "frontend: SummerCart64": 1,
+                "has workaround": 5,
+                "os: Linux": 5,
+                "os: Windows": 3,
+                "os: macOS": 0,
+                "status: blocked": 1,
+                "status: good first issue": 2,
+                "status: help wanted": 4,
+                "status: in progress": 1,
+                "status: question": 2,
+                "type: bug": 12,
+                "type: enhancement": 14,
+                "type: maintenance": 3
+            },
+            "pr_labels": {
+                "component: GUI": 2,
+                "component: installer": 1,
+                "component: updater": 0,
+                "frontend: Dolphin": 1,
+                "frontend: EverDrive": 2,
+                "frontend: Project64": 0,
+                "frontend: SummerCart64": 2,
+                "status: in progress": 1,
+                "status: waiting for author": 0,
                 "type: enhancement": 3,
                 "type: maintenance": 0
             }
